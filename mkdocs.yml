@@ -1,0 +1,42 @@
+site_name: C6H4O2的小站
+theme:
+  features:
+    - navigation.footer
+  name: material
+  logo: assets/logo.png
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark Mode
+      primary: green #主题颜色
+      accent: deep purple #强调色
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light Mode
+      primary: blue #主题颜色
+      accent: deep orange #强调色
+plugins:
+  - offline
+  - search
+
+markdown_extensions:
+  #emoji
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  #内容选项卡
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  #提示
+  - admonition
+  - pymdownx.details
+ #- pymdownx.superfences
