@@ -1,10 +1,22 @@
+##
+观前提示：
+本教程目前极不完善！！！
+需要等到我有空再回来补，现在发布只是降低我直接把教程鸽掉的可能，如果你在阅读过程中遇到任何无法解决的问题，请立刻去翻看参考资料并找我反馈
+## 参考资料
+* [Installation - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/getting-started/)
+* [Material for MkDocs: Full Tutorial To Build And Deploy Your Docs Portal - YouTube](https://www.youtube.com/watch?v=xlABhbnNrfI)
+* [Getting Started with Material for MkDocs - jameswillett.dev](https://jameswillett.dev/getting-started-with-material-for-mkdocs/)
+* [james-willett/material-mkdocs-youtube-2024: Supporting code for YouTube tutorial on MkDocs](https://github.com/james-willett/material-mkdocs-youtube-2024)
+* [参考资料 - MkDocs 材料 --- Reference - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/)
 ## Require：
 * Python
 	* pip
 * VSCode
-* Github account 配置GitHub Pages
+* Github账号，用以配置GitHub Pages
 ## 步骤
 ### 基本操作
+以下为shell/cmd中操作：
+* 在合适的位置打开shell/cmd
 * python创建虚拟环境
 	* `python -m venv venv
 * 转入虚拟环境
@@ -18,11 +30,13 @@
 	* code .
 * 在VSCode中打开终端
 * 转入虚拟环境
-	* `source venv/bin/activate`//For Linux
-	* `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`//For Windows
-	* `.\venv\Scripts\Activate.ps1`//For Windows
+	* Linux
+		* `source venv/bin/activate`
+	* Windows
+		* `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser`
+		* `.\venv\Scripts\Activate.ps1`
 * 创建新站点
-	* mkdocs new .
+	* `mkdocs new .`
 * 编辑`mkdocs.yml`文件
 ```
 site_name: My MkDocs Material Documentation
@@ -36,11 +50,11 @@ theme:
 	* [http://localhost:8000](http://localhost:8000)
 ### 进一步配置
 #### 安装[Red Hat VS Code Yam](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)扩展
-* 用以防止yaml格式错误导致的bug以及其他用途
-* 左下角⚙️->设置->右上角“打开设置(json)”
-* 编辑`settings.json`.
+* 用以防止yaml格式错误导致的bug以及查看各key可对应的value等
+* VS Code左下角⚙️->设置->右上角“打开设置(json)”
+* 编辑`settings.json`
 * 加入以下：
-```
+```yml
 {
 ...
     "redhat.telemetry.enabled": true,
@@ -58,7 +72,7 @@ theme:
 }
 ```
 #### 颜色相关
-```
+```yml
 site_name: C6H4O2的小站
 theme:
   name: material
@@ -79,7 +93,7 @@ theme:
       accent: deep orange #强调色
 ```
 #### 字体相关
-```
+```yml
 theme:
   name: material
 ---------------------------
@@ -91,7 +105,7 @@ theme:
   palette:
 ```
 #### Emoji
-```
+```yml
 ##最底部加上
 markdown_extensions:
   - attr_list
@@ -104,20 +118,20 @@ markdown_extensions:
 	- 在 `docs` 文件夹中，创建一个 `assets` 文件夹。
 	- 将 `logo.png` 文件添加到此文件夹
 	- 现在将 `mkdocs.yml` 更改为：
-```
+```yml
 theme:
   logo: assets/logo.png
 ```
 #### 网站图标
-```
+参考：[Changing the logo and icons - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
+```yml
 theme:
   favicon: assets/favicon.ico
 ```
-更多：[Changing the logo and icons - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/)
 #### 代码块
 参考：[Code blocks - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 * 启用语法着色（以python为例）
-```
+```yml
 ##加上
 markdown_extensions:
   - pymdownx.highlight:
@@ -158,7 +172,7 @@ print('The sum is:', result)
 * 高亮显示行
 	* `py hl_lines=“2-4”`
 #### 内容选项卡
-```
+```yml
 ##最底部加上
 markdown_extensions:
   - pymdownx.superfences
@@ -209,6 +223,43 @@ markdown_extensions:
     main();
     ```
 ```
+ 效果：
+ ##### 1
+=== "Plain text"
+
+    This is some plain text
+
+=== "Unordered list"
+
+    * First item
+    * Second item
+    * Third item
+
+=== "Ordered list"
+
+    1. First item
+    2. Second item
+    3. Third item
+##### 2
+=== "Python"
+
+    ```py
+    def main():
+        print("Hello world!")
+
+    if __name__ == "__main__":
+        main()
+    ```
+
+=== "JavaScript"
+
+    ```js
+    function main() {
+        console.log("Hello world!");
+    }
+
+    main();
+    ```
 #### 提示
 ```
 ##最底部加上
@@ -218,15 +269,26 @@ markdown_extensions:
   - pymdownx.superfences
 ```
 
+```
+!!! note "示例"
+	这是一段测试文本
+```
+效果：
 !!! note "示例"
 	这是一段测试文本
 #### 可折叠提示
+参考：
+[Admonitions - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
+```
 ??? info "示例"
 	这是一段测试文本
-
-更多：
-[Admonitions - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/#supported-types)
+```
+效果：
+??? info "示例"
+	这是一段测试文本
 #### 图表
+略
+功能十分强大，但一般用得不多，可见[Diagrams - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/diagrams/)
 #### 页脚
 导航：
 ```
@@ -247,7 +309,7 @@ extra:
 ```
 copyright: Copyright &copy; 2024 James Willett
 ```
-#### 部署在GitHub Pages
+### 部署在GitHub Pages
 根目录创建`.github/workflows/ci.yml` 文件并粘贴示例代码：
 ```
 name: ci
@@ -280,9 +342,20 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
 ```
-- 创建全新的 GitHub 存储库
+- 创建GitHub库
 - 将 GitHub 仓库远程与项目代码挂钩（即执行 `git init`，然后按照说明添加远程）
 - 将 branch 推送到 GitHub 存储库上的 `main`
-- 转到 GitHub 并进入设置并更改**页面**以`从分支部署`，选择 `gh-pages` 分支。
-- 将触发一个 GitHub Action，以部署站点
-    - 例如 [https://james-willett.github.io/mkdocs-material-tutorial-2024/](https://james-willett.github.io/mkdocs-material-tutorial-2024/)
+- 界面右上角Setting->Pages->gh-pages->Save->Actions
+	- 示例：https://rottenwooood.github.io/C6H4O2-s-Website/index.html
+* 用到的命令：
+```
+git init
+//随后设置.gitignore文件，可在开头提供的github库中找到，直接在根目录创建赋值内容即可
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:Rottenwooood/C6H4O2-s-Website.git
+git branch -M main
+git push -u origin main
+//Setting->Pages->gh-pages->Save->Actions->Complete!
+//https://rottenwooood.github.io/C6H4O2-s-Website/index.html
+```
