@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/知识库/mkdos-material.md",
                 "mode": "source",
-                "source": false,
+                "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
@@ -152,7 +152,7 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "eb3ed51259e96a9f",
+  "active": "1c5a0cc7d43bc843",
   "lastOpenFiles": [
     "docs/To do/2025/2025-W06-02-03.md",
     "docs/To do/2025/每日工作流程.md",

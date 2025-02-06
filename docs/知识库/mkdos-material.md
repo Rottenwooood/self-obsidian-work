@@ -1,5 +1,4 @@
-##
-观前提示：
+## 观前提示：
 本教程目前极不完善！！！
 需要等到我有空再回来补，现在发布只是降低我直接把教程鸽掉的可能，如果你在阅读过程中遇到任何无法解决的问题，请立刻去翻看参考资料并找我反馈
 ## 参考资料
@@ -16,9 +15,10 @@
 ## 步骤
 ### 基本操作
 以下为shell/cmd中操作：
+
 * 在合适的位置打开shell/cmd
 * python创建虚拟环境
-	* `python -m venv venv
+	* `python -m venv venv`
 * 转入虚拟环境
 	* `source venv/vin/activate` //For Linux
 	* `\venv\Scripts\activate\` //For Windows
@@ -118,6 +118,7 @@ markdown_extensions:
 	- 在 `docs` 文件夹中，创建一个 `assets` 文件夹。
 	- 将 `logo.png` 文件添加到此文件夹
 	- 现在将 `mkdocs.yml` 更改为：
+
 ```yml
 theme:
   logo: assets/logo.png
@@ -141,6 +142,7 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
 ```
+
 * 添加标题
 例子：
 ````
@@ -164,6 +166,7 @@ def add_two_numbers(num1, num2):
 result = add_two_numbers(5, 3)
 print('The sum is:', result)
 ```
+
 * 添加行号
 	* `py linenums=“1”`
 	* 也可以从不同的数字开始行号，例如 `py linenums=“5”`
@@ -180,8 +183,6 @@ markdown_extensions:
 ```
 针对不同选项的内容：
 ```
-### Generic Content
-
 === "Plain text"
 
     This is some plain text
@@ -198,10 +199,25 @@ markdown_extensions:
     2. Second item
     3. Third item
 ```
+=== "Plain text"
+
+    This is some plain text
+
+=== "Unordered list"
+
+    * First item
+    * Second item
+    * Third item
+
+=== "Ordered list"
+
+    1. First item
+    2. Second item
+    3. Third item
+
+
 针对不同语言的代码：
 ```
-### Code Blocks in Content Tabs
-
 === "Python"
 
     ```py
@@ -222,25 +238,7 @@ markdown_extensions:
     main();
     ```
 ```
- 效果：
- 
- ##### 1
-=== "Plain text"
 
-    This is some plain text
-
-=== "Unordered list"
-
-    * First item
-    * Second item
-    * Third item
-
-=== "Ordered list"
-
-    1. First item
-    2. Second item
-    3. Third item
-##### 2
 === "Python"
 
     ```py
@@ -260,6 +258,8 @@ markdown_extensions:
 
     main();
     ```
+
+
 #### 提示
 ```
 ##最底部加上
@@ -273,7 +273,6 @@ markdown_extensions:
 !!! note "示例"
 	这是一段测试文本
 ```
-效果：
 !!! note "示例"
 	这是一段测试文本
 #### 可折叠提示
@@ -283,7 +282,6 @@ markdown_extensions:
 ??? info "示例"
 	这是一段测试文本
 ```
-效果：
 ??? info "示例"
 	这是一段测试文本
 #### 图表
@@ -342,12 +340,14 @@ jobs:
       - run: pip install mkdocs-material
       - run: mkdocs gh-deploy --force
 ```
+
 - 创建GitHub库
 - 将 GitHub 仓库远程与项目代码挂钩（即执行 `git init`，然后按照说明添加远程）
 - 将 branch 推送到 GitHub 存储库上的 `main`
 - 界面右上角Setting->Pages->gh-pages->Save->Actions
 	- 示例：https://rottenwooood.github.io/C6H4O2-s-Website/index.html
 * 用到的命令：
+
 ```
 git init
 //随后设置.gitignore文件，可在开头提供的github库中找到，直接在根目录创建赋值内容即可
