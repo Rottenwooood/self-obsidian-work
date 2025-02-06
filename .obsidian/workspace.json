@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/知识库/mkdos-material.md",
+                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "mkdos-material"
+              "title": "将mkdos-material部署在GitHub Pages"
             }
           },
           {
@@ -110,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/知识库/mkdos-material.md",
+                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "mkdos-material 的出链列表"
+              "title": "将mkdos-material部署在GitHub Pages 的出链列表"
             }
           },
           {
@@ -124,13 +124,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/知识库/mkdos-material.md",
+                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "mkdos-material 的大纲"
+              "title": "将mkdos-material部署在GitHub Pages 的大纲"
             }
           }
         ],
@@ -167,7 +167,7 @@
     "1 @{2025-02-06}.md",
     "docs/To do/2025/2025-W05-01-27.md",
     "docs/To do/2025/未命名.md",
-    "docs/知识库/mkdos-material.md",
+    "docs/知识库/将mkdos-material部署在GitHub Pages.md",
     "docs/知识库/计算机和硬件/git.md",
     "docs/assets/logo.png",
     "docs/assets",
