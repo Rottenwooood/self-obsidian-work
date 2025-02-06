@@ -110,12 +110,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/知识库/计算机和硬件/git.md",
+                "file": "docs/知识库/mkdos-material.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "git 的出链列表"
+              "title": "mkdos-material 的出链列表"
             }
           },
           {
@@ -152,7 +152,7 @@
       "obsidian-kanban:创建新看板": false
     }
   },
-  "active": "1c5a0cc7d43bc843",
+  "active": "eb3ed51259e96a9f",
   "lastOpenFiles": [
     "docs/To do/2025/2025-W06-02-03.md",
     "docs/To do/2025/每日工作流程.md",

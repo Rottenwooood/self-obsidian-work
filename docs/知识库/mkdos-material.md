@@ -132,7 +132,6 @@ theme:
 参考：[Code blocks - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/code-blocks/)
 * 启用语法着色（以python为例）
 ```yml
-##加上
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -224,6 +223,7 @@ markdown_extensions:
     ```
 ```
  效果：
+ 
  ##### 1
 === "Plain text"
 
