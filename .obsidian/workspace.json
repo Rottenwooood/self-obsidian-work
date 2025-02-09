@@ -4,40 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "71c5e67c23dc5760",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "1c5a0cc7d43bc843",
+            "id": "f50679c1fc0a4903",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "将mkdos-material部署在GitHub Pages"
-            }
-          },
-          {
-            "id": "febeaf66fc1ba6e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/To do/2025/2025-W06-02-03.md",
+                "file": "docs/日志/2.3-2.9/02.08.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "2025-W06-02-03"
+              "title": "02.08"
+            }
+          },
+          {
+            "id": "5ad6097d5130ccb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/灵感/2025.1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025.1"
+            }
+          },
+          {
+            "id": "de3a4e2e4306324d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/资源.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "资源"
+            }
+          },
+          {
+            "id": "d3358bd7c0e08685",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/待整理/知识库/计算机和硬件/算法/模板.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "模板"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -57,7 +88,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -110,12 +141,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
+                "file": "docs/灵感/2025.1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "将mkdos-material部署在GitHub Pages 的出链列表"
+              "title": "2025.1 的出链列表"
             }
           },
           {
@@ -124,17 +155,61 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/知识库/将mkdos-material部署在GitHub Pages.md",
+                "file": "docs/待整理/知识库/计算机和硬件/算法/模板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "将mkdos-material部署在GitHub Pages 的大纲"
+              "title": "模板 的大纲"
+            }
+          },
+          {
+            "id": "fac4d1a31f185972",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/灵感/2025.1.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "2025.1 的反向链接列表"
+            }
+          },
+          {
+            "id": "15d2443ce6af5c28",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "0cf53620553924ab",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,52 +223,52 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "homepage:Open homepage": false,
-      "workspaces:管理工作区布局": false,
-      "obsidian-kanban:创建新看板": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "1c5a0cc7d43bc843",
+  "active": "1693419bb2df7586",
   "lastOpenFiles": [
-    "docs/To do/2025/2025-W06-02-03.md",
-    "docs/To do/2025/每日工作流程.md",
-    "docs/知识库/计算机和硬件/算法/模板.md",
-    "docs/知识库/计算机和硬件/算法/数学.md",
-    "docs/知识库/计算机和硬件/算法/刷题.md",
+    "docs/每日工作流程.md",
+    "docs/周结/2025-W06-02-03.md",
     "docs/灵感/2025.1.md",
-    "docs/知识库/计算机和硬件/算法/数据结构/数组/经典/001二分查找.md",
+    "docs/资源.md",
+    "docs/周结/2025-W04-01-20.md",
+    "docs/周结/01.20-01.26.md",
+    "docs/To do/2025",
+    "docs/日志/1.19.md",
+    "docs/日志/2.3-2.9/02.08.md",
+    "docs/周结",
+    "docs/未命名.canvas",
+    "docs/日志/2.3-2.9",
+    "docs/待整理/git.md",
+    "docs/待整理",
+    "docs/博客/将mkdos-material部署在GitHub Pages.md",
+    "docs/博客",
+    "docs/待整理/知识库/计算机和硬件/洛谷.md",
+    "docs/待整理/知识库/提问/C++中int和longlong类型的最大值.md",
+    "docs/待整理/index.md",
+    "docs/日志",
+    "docs/待整理/知识库/计算机和硬件/算法/刷题.md",
+    "docs/博客/结构化思维.md",
+    "docs/待整理/assets/logo.png",
+    "docs/风水宝地",
+    "docs/未命名.md",
+    "docs/待整理/知识库/计算机和硬件/算法/数据结构/数组/经典/002移除元素.md",
+    "docs/待整理/知识库/计算机和硬件/算法/模板.md",
+    "docs/待整理/知识库/计算机和硬件/算法/数学.md",
+    "docs/待整理/知识库/计算机和硬件/算法/数据结构/数组/经典/001二分查找.md",
     "未命名看板.md",
     "2 1.md",
     "2.md",
     "1 @{2025-02-06}.md",
-    "docs/To do/2025/2025-W05-01-27.md",
+    "docs/周结/2025-W05-01-27.md",
     "docs/To do/2025/未命名.md",
-    "docs/知识库/将mkdos-material部署在GitHub Pages.md",
-    "docs/知识库/计算机和硬件/git.md",
-    "docs/assets/logo.png",
-    "docs/assets",
+    "docs/待整理/assets",
     "docs/新建文件夹",
     "venv/Lib/site-packages/jinja2/__pycache__/parser.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/_identifier.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/tests.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/runtime.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/optimizer.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/visitor.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/utils.cpython-38.pyc",
-    "venv/Lib/site-packages/jinja2/__pycache__/__init__.cpython-38.pyc",
-    "docs/index.md",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
-    "venv/Lib/site-packages/idna-3.10.dist-info/LICENSE.md",
-    "venv/Lib/site-packages/mkdocs_material_extensions-1.3.1.dist-info/licenses/LICENSE.md",
-    "venv/Lib/site-packages/pymdown_extensions-10.14.3.dist-info/licenses/LICENSE.md",
     "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
     "venv/Lib/site-packages/mkdocs/themes/mkdocs/img/grid.png",
-    "venv/Lib/site-packages/mkdocs_get_deps-0.2.0.dist-info/licenses/LICENSE.md",
-    "venv/Lib/site-packages/Markdown-3.7.dist-info/LICENSE.md",
-    "docs/知识库/阅读/毛选.md",
-    "docs/知识库/提问/C++中int和longlong类型的最大值.md",
-    "docs/To do/2025/c.md",
-    "docs/To do/2025/2025-W05-01-27-01-DD+7.md",
-    "docs/To do/2025/2025-W05-01-27-01-{27+7}.md",
     "da2ac207719064ef1427f0283b2f07fd.jpg"
   ]
 }

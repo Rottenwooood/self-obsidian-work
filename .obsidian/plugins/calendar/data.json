@@ -5,6 +5,6 @@
   "showWeeklyNote": true,
   "weeklyNoteFormat": "gggg-[W]ww-MM-DD",
   "weeklyNoteTemplate": "",
-  "weeklyNoteFolder": "/docs/To do/2025",
+  "weeklyNoteFolder": "/docs/周结",
   "localeOverride": "system-default"
 }
