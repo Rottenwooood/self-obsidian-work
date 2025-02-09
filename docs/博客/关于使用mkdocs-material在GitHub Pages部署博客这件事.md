@@ -23,11 +23,11 @@
 	* `source venv/vin/activate` //For Linux
 	* `\venv\Scripts\activate\` //For Windows
 * 检查pip版本
-	* pip --version
+	* `pip --version`
 * 安装mkdocs-material
-	* pip install mkdocs-material
+	* `pip install mkdocs-material`
 * 打开VSCode
-	* code .
+	* `code .`
 * 在VSCode中打开终端
 * 转入虚拟环境
 	* Linux
