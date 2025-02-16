@@ -2,8 +2,8 @@
   "version": 4,
   "homepages": {
     "Main Homepage": {
-      "value": "docs/To do/2025/每日工作流程",
-      "kind": "File",
+      "value": "默认",
+      "kind": "Workspace",
       "openOnStartup": true,
       "openMode": "Replace all open notes",
       "manualOpenMode": "Keep open notes",

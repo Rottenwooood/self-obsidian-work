@@ -21,7 +21,7 @@
 	* `python -m venv venv`
 * 转入虚拟环境
 	* `source venv/vin/activate` //For Linux
-	* `\venv\Scripts\activate\` //For Windows
+	* `.\\venv\Scripts\activate` //For Windows
 * 检查pip版本
 	* `pip --version`
 * 安装mkdocs-material

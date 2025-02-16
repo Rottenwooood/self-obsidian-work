@@ -4,41 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "f3f1e19bda2b1379",
         "type": "tabs",
         "children": [
           {
-            "id": "f50679c1fc0a4903",
+            "id": "73a2b51831919350",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/日志/2.3-2.9/02.08.md",
+                "file": "docs/reference/new git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "02.08"
+              "title": "new git"
             }
           },
           {
-            "id": "5ad6097d5130ccb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/灵感/2025.1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025.1"
-            }
-          },
-          {
-            "id": "de3a4e2e4306324d",
+            "id": "2e94b27f311c47d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -51,24 +36,8 @@
               "icon": "lucide-file",
               "title": "资源"
             }
-          },
-          {
-            "id": "d3358bd7c0e08685",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/待整理/知识库/计算机和硬件/算法/模板.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "模板"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,13 +51,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1693419bb2df7586",
+            "id": "46a329fad8e7b5d8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -100,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "吴恩达",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,8 +101,26 @@
     "type": "split",
     "children": [
       {
+        "id": "719dc257ebaf3a0a",
+        "type": "tabs",
+        "dimension": 41.99029126213591,
+        "children": [
+          {
+            "id": "0cf53620553924ab",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
         "id": "ac7f66e5e2e94039",
         "type": "tabs",
+        "dimension": 58.00970873786409,
         "children": [
           {
             "id": "cf517d380e302489",
@@ -141,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/灵感/2025.1.md",
+                "file": "docs/reference/new git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025.1 的出链列表"
+              "title": "new git 的出链列表"
             }
           },
           {
@@ -155,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/待整理/知识库/计算机和硬件/算法/模板.md",
+                "file": "docs/reference/new git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "模板 的大纲"
+              "title": "new git 的大纲"
             }
           },
           {
@@ -170,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/灵感/2025.1.md",
+                "file": "docs/reference/new git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +167,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025.1 的反向链接列表"
+              "title": "new git 的反向链接列表"
             }
           },
           {
@@ -199,13 +186,18 @@
             }
           },
           {
-            "id": "0cf53620553924ab",
+            "id": "6de479b0e046e7ce",
             "type": "leaf",
             "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "type": "markdown",
+              "state": {
+                "file": "docs/折叠/TODO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           }
         ],
@@ -217,6 +209,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "periodic-notes:Open today": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -226,46 +219,49 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "1693419bb2df7586",
+  "active": "73a2b51831919350",
   "lastOpenFiles": [
-    "docs/每日工作流程.md",
-    "docs/周结/2025-W06-02-03.md",
-    "docs/灵感/2025.1.md",
+    "docs/折叠/TODO.md",
+    "docs/reference/new git.md",
     "docs/资源.md",
-    "docs/周结/2025-W04-01-20.md",
-    "docs/周结/01.20-01.26.md",
-    "docs/To do/2025",
-    "docs/日志/1.19.md",
-    "docs/日志/2.3-2.9/02.08.md",
-    "docs/周结",
-    "docs/未命名.canvas",
-    "docs/日志/2.3-2.9",
-    "docs/待整理/git.md",
-    "docs/待整理",
-    "docs/博客/将mkdos-material部署在GitHub Pages.md",
-    "docs/博客",
-    "docs/待整理/知识库/计算机和硬件/洛谷.md",
-    "docs/待整理/知识库/提问/C++中int和longlong类型的最大值.md",
-    "docs/待整理/index.md",
-    "docs/日志",
-    "docs/待整理/知识库/计算机和硬件/算法/刷题.md",
-    "docs/博客/结构化思维.md",
+    "docs/reference/git.md",
+    "docs/算法/刷题.md",
+    "docs/算法/算法.canvas",
+    "docs/算法/算法模板.md",
+    "docs/算法/算法-目录.md",
+    "docs/折叠/C++ 运算符优先级总表.md",
+    "docs/折叠/未命名.canvas",
+    "主页.canvas",
+    "docs/折叠/目录/数学.md",
+    "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/2.理论篇/1.基础知识/README.md",
+    "docs/灵感/灵感2025.1+2.md",
+    "docs/周结/周结2025-W07-02-10.md",
+    "docs/折叠/目录/阅读清单.md",
+    "docs/算法/专题/003算法.md",
+    "专题.md",
+    "docs/折叠/目录/电路.md",
+    "docs/折叠/目录/概率论.md",
+    "docs/日志/日志02-16.md",
+    "docs/日志/日志02-15.md",
+    "docs/周结/周结2025-W05-01-27.md",
+    "docs/周结/周结2025-W04-01-20.md",
+    "docs/折叠/目录/目录.md",
+    "docs/折叠/目录/学习规划.md",
+    "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/1.新手关卡/README.md",
+    "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/从python开始的ai学习/深度学习 pytorch/21. 正则化之weight_decay/正则化之weight_decy.md",
+    "docs/折叠/待整理/知识库/其他/代办/代办.md",
+    "docs/折叠/目录",
+    "docs/笔记",
+    "docs/折叠/日志",
+    "docs/算法/模板",
+    "docs/折叠/attachment/能力全面提升综合题单 - 题单 - 洛谷 _ 计算机科学教育新生态.url",
+    "docs/折叠/attachment/分享｜如何科学刷题？ - 力扣（LeetCode）.url",
+    "docs/算法/算法模板",
+    "docs/算法/专题",
+    "docs/时间线",
+    "docs/pages",
+    "docs/折叠/attachment/Pasted image 20250211115056.png",
     "docs/待整理/assets/logo.png",
-    "docs/风水宝地",
-    "docs/未命名.md",
-    "docs/待整理/知识库/计算机和硬件/算法/数据结构/数组/经典/002移除元素.md",
-    "docs/待整理/知识库/计算机和硬件/算法/模板.md",
-    "docs/待整理/知识库/计算机和硬件/算法/数学.md",
-    "docs/待整理/知识库/计算机和硬件/算法/数据结构/数组/经典/001二分查找.md",
-    "未命名看板.md",
-    "2 1.md",
-    "2.md",
-    "1 @{2025-02-06}.md",
-    "docs/周结/2025-W05-01-27.md",
-    "docs/To do/2025/未命名.md",
-    "docs/待整理/assets",
-    "docs/新建文件夹",
-    "venv/Lib/site-packages/jinja2/__pycache__/parser.cpython-38.pyc",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
     "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
     "venv/Lib/site-packages/mkdocs/themes/mkdocs/img/grid.png",

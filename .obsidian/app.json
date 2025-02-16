@@ -2,5 +2,6 @@
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "attachmentFolderPath": "docs/折叠/attachment"
 }

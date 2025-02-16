@@ -3,7 +3,7 @@
   "weekStart": "locale",
   "wordsPerDot": 250,
   "showWeeklyNote": true,
-  "weeklyNoteFormat": "gggg-[W]ww-MM-DD",
+  "weeklyNoteFormat": "zgggg-[W]ww-MM-DD",
   "weeklyNoteTemplate": "",
   "weeklyNoteFolder": "/docs/周结",
   "localeOverride": "system-default"

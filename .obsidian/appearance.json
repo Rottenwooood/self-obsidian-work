@@ -1,4 +1,7 @@
 {
   "enabledCssSnippets": [],
-  "theme": "obsidian"
+  "theme": "moonstone",
+  "showRibbon": true,
+  "cssTheme": "Minimal",
+  "accentColor": ""
 }
