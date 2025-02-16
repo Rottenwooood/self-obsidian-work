@@ -4,36 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f1e19bda2b1379",
+        "id": "c70b51e67266de61",
         "type": "tabs",
+        "dimension": 47.63843648208469,
         "children": [
           {
-            "id": "73a2b51831919350",
+            "id": "6cc166fd9e098361",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "canvas",
               "state": {
-                "aFile": "docs/折叠/TODO.md",
-                "bFile": "docs/折叠/TODO.md",
-                "aRef": ""
+                "file": "docs/算法/算法.canvas",
+                "viewState": {
+                  "x": 214.38094598091448,
+                  "y": -395.0444728568,
+                  "zoom": -0.4169237571852635
+                }
               },
-              "icon": "diff",
-              "title": "Diff: TODO"
+              "icon": "lucide-layout-dashboard",
+              "title": "算法"
             }
           },
           {
-            "id": "2e94b27f311c47d3",
+            "id": "cbb79349440ca357",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/资源.md",
+                "file": "docs/算法/专题/005数据结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "资源"
+              "title": "005数据结构"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f244f21193dd298e",
+        "type": "tabs",
+        "dimension": 52.36156351791531,
+        "children": [
+          {
+            "id": "f9d9e65145255119",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/算法/刷题.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "刷题"
             }
           }
         ]
@@ -50,7 +77,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "46a329fad8e7b5d8",
+            "id": "c943c8f42773594f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "吴恩达",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,23 +115,13 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
-          },
-          {
-            "id": "9c6e83d3fab01734",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -113,7 +130,7 @@
       {
         "id": "719dc257ebaf3a0a",
         "type": "tabs",
-        "dimension": 41.99029126213591,
+        "dimension": 38.349514563106794,
         "children": [
           {
             "id": "0cf53620553924ab",
@@ -124,13 +141,24 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "3a74f4a84cea4208",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ac7f66e5e2e94039",
         "type": "tabs",
-        "dimension": 58.00970873786409,
+        "dimension": 61.6504854368932,
         "children": [
           {
             "id": "cf517d380e302489",
@@ -138,11 +166,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/算法/算法.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "灵感2025.1+2 的出链列表"
             }
           },
           {
@@ -151,12 +180,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/算法/专题/005数据结构.md",
                 "followCursor": false,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "005数据结构 的大纲"
             }
           },
           {
@@ -165,6 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/算法/专题/005数据结构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +205,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "005数据结构 的反向链接列表"
             }
           },
           {
@@ -193,7 +224,7 @@
             }
           },
           {
-            "id": "6de479b0e046e7ce",
+            "id": "7f603ce6b37c95e3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,48 +247,49 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "periodic-notes:Open today": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
+      "time-ruler:Open Time Ruler": false,
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": true,
+      "switcher:打开快速切换": true,
+      "graph:查看关系图谱": true,
       "canvas:新建白板": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
+      "templates:插入模板": true,
+      "command-palette:打开命令面板": true,
       "homepage:Open homepage": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "73a2b51831919350",
+  "active": "cbb79349440ca357",
   "lastOpenFiles": [
-    "docs/折叠/TODO.md",
-    "docs/reference/new git.md",
-    "docs/资源.md",
-    "docs/reference/git.md",
-    "docs/算法/刷题.md",
     "docs/算法/算法.canvas",
-    "docs/算法/算法模板.md",
+    "docs/算法/专题/005数据结构.md",
+    "docs/算法/刷题.md",
+    "docs/折叠/TODO.md",
+    "主页.canvas",
+    "docs/算法/模板/002搜索模板.md",
+    "docs/日志/日志02-16.md",
+    "docs/折叠/模板/日志.md",
+    "docs/日志/日志02-23.md",
+    "docs/周结/周结2025-W07-02-10.md",
+    "docs/日志/2025-02-22 气昂昂.md",
+    "docs/日志/日志02-21.md",
+    "docs/日志/日志02-20.md",
+    "docs/日志/日志02-19.md",
+    "docs/日志/日志02-18.md",
+    "docs/日志/日志02-17.md",
+    "docs/日志/日志03-01.md",
     "docs/算法/算法-目录.md",
+    "docs/资源.md",
+    "docs/reference/new git.md",
+    "docs/reference/git.md",
+    "docs/算法/算法模板.md",
     "docs/折叠/C++ 运算符优先级总表.md",
     "docs/折叠/未命名.canvas",
-    "主页.canvas",
     "docs/折叠/目录/数学.md",
     "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/2.理论篇/1.基础知识/README.md",
     "docs/灵感/灵感2025.1+2.md",
-    "docs/周结/周结2025-W07-02-10.md",
     "docs/折叠/目录/阅读清单.md",
-    "docs/算法/专题/003算法.md",
-    "专题.md",
-    "docs/折叠/目录/电路.md",
-    "docs/折叠/目录/概率论.md",
-    "docs/日志/日志02-16.md",
-    "docs/日志/日志02-15.md",
-    "docs/周结/周结2025-W05-01-27.md",
-    "docs/周结/周结2025-W04-01-20.md",
-    "docs/折叠/目录/目录.md",
-    "docs/折叠/目录/学习规划.md",
-    "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/1.新手关卡/README.md",
-    "docs/折叠/待整理/知识库/计算机和硬件/折叠/ai-self-learning-main/从python开始的ai学习/深度学习 pytorch/21. 正则化之weight_decay/正则化之weight_decy.md",
-    "docs/折叠/待整理/知识库/其他/代办/代办.md",
     "docs/折叠/目录",
     "docs/笔记",
     "docs/折叠/日志",

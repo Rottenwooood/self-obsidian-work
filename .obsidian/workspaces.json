@@ -17,13 +17,23 @@
                   "state": {
                     "file": "主页.canvas",
                     "viewState": {
-                      "x": 774.0554644169698,
-                      "y": 47.39846064055541,
-                      "zoom": -0.05049948200764084
+                      "x": 725,
+                      "y": -190,
+                      "zoom": 0
                     }
                   },
                   "icon": "lucide-layout-dashboard",
                   "title": "主页"
+                }
+              },
+              {
+                "id": "00495e326551ed10",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-view",
+                  "state": {},
+                  "icon": "calendar-glyph",
+                  "title": "Calendar"
                 }
               }
             ]
@@ -58,7 +68,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "今日",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -83,7 +93,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 300,
+        "width": 200,
         "collapsed": true
       },
       "right": {
@@ -91,9 +101,8 @@
         "type": "split",
         "children": [
           {
-            "id": "719dc257ebaf3a0a",
+            "id": "a8ff020d785e4cc8",
             "type": "tabs",
-            "dimension": 41.99029126213591,
             "children": [
               {
                 "id": "0cf53620553924ab",
@@ -110,7 +119,6 @@
           {
             "id": "ac7f66e5e2e94039",
             "type": "tabs",
-            "dimension": 58.00970873786409,
             "children": [
               {
                 "id": "cf517d380e302489",
@@ -199,19 +207,21 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:创建新看板": false,
-          "periodic-notes:Open today": false,
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
-          "templates:插入模板": false,
-          "command-palette:打开命令面板": false,
           "homepage:Open homepage": false,
-          "workspaces:管理工作区布局": false
+          "time-ruler:Open Time Ruler": false,
+          "obsidian-git:Open Git source control": false,
+          "periodic-notes:Open today": true,
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "canvas:新建白板": false,
+          "templates:插入模板": true,
+          "command-palette:打开命令面板": true,
+          "workspaces:管理工作区布局": false,
+          "obsidian-full-calendar:Open Full Calendar": false
         }
       },
-      "active": "6de479b0e046e7ce",
-      "mtime": "2025-02-15T20:31:00+08:00"
+      "active": "8fd2a451db90e9b5",
+      "mtime": "2025-02-16T22:21:42+08:00"
     },
     "算法": {
       "main": {
@@ -450,6 +460,7 @@
           {
             "id": "c70b51e67266de61",
             "type": "tabs",
+            "dimension": 47.63843648208469,
             "children": [
               {
                 "id": "6cc166fd9e098361",
@@ -489,22 +500,8 @@
           {
             "id": "f244f21193dd298e",
             "type": "tabs",
+            "dimension": 52.36156351791531,
             "children": [
-              {
-                "id": "d63ee2a8dacfb11e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/算法/模板/002搜索模板.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "002搜索模板"
-                }
-              },
               {
                 "id": "f9d9e65145255119",
                 "type": "leaf",
@@ -520,8 +517,7 @@
                   "title": "刷题"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -535,12 +531,25 @@
             "type": "tabs",
             "children": [
               {
+                "id": "c943c8f42773594f",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
                 "id": "57f39cea2cdea9b1",
                 "type": "leaf",
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "vector",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -560,25 +569,13 @@
                   "icon": "lucide-bookmark",
                   "title": "书签"
                 }
-              },
-              {
-                "id": "c943c8f42773594f",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "文件列表"
-                }
               }
             ]
           }
         ],
         "direction": "horizontal",
-        "width": 200
+        "width": 200,
+        "collapsed": true
       },
       "right": {
         "id": "c064049ee1a8be91",
@@ -626,13 +623,13 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "docs/算法/算法.canvas",
+                    "file": "docs/折叠/TODO.md",
                     "followCursor": false,
-                    "showSearch": false,
+                    "showSearch": true,
                     "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "算法 的大纲"
+                  "title": "TODO 的大纲"
                 }
               },
               {
@@ -641,7 +638,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "docs/算法/算法.canvas",
+                    "file": "docs/折叠/TODO.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -651,7 +648,7 @@
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-coming-in",
-                  "title": "算法 的反向链接列表"
+                  "title": "TODO 的反向链接列表"
                 }
               },
               {
@@ -668,30 +665,47 @@
                   "icon": "lucide-tags",
                   "title": "标签"
                 }
+              },
+              {
+                "id": "7f603ce6b37c95e3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/折叠/TODO.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "TODO"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
+        "width": 300
       },
       "left-ribbon": {
         "hiddenItems": {
-          "periodic-notes:Open today": false,
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
+          "time-ruler:Open Time Ruler": false,
+          "obsidian-git:Open Git source control": false,
+          "periodic-notes:Open today": true,
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
           "canvas:新建白板": false,
-          "templates:插入模板": false,
-          "command-palette:打开命令面板": false,
+          "templates:插入模板": true,
+          "command-palette:打开命令面板": true,
           "homepage:Open homepage": false,
-          "workspaces:管理工作区布局": false
+          "workspaces:管理工作区布局": false,
+          "obsidian-full-calendar:Open Full Calendar": false
         }
       },
-      "active": "f9d9e65145255119",
-      "mtime": "2025-02-14T18:02:30+08:00"
+      "active": "7f603ce6b37c95e3",
+      "mtime": "2025-02-16T22:45:26+08:00"
     }
   },
-  "active": "默认"
+  "active": "算法-搜索"
 }
