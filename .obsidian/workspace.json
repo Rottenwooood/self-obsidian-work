@@ -89,8 +89,19 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "9c6e83d3fab01734",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -216,10 +227,11 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "homepage:Open homepage": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "73a2b51831919350",
+  "active": "9c6e83d3fab01734",
   "lastOpenFiles": [
     "docs/折叠/TODO.md",
     "docs/reference/new git.md",
