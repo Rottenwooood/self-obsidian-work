@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "日志02-18"
             }
+          },
+          {
+            "id": "49b151908047b670",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "docs/🌟灵感/灵感2025.1+2.md",
+                "bFile": "docs/🌟灵感/灵感2025.1+2.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 灵感2025.1+2"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -107,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 230.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -258,19 +273,20 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9e2991c240513d3d",
+  "active": "49b151908047b670",
   "lastOpenFiles": [
-    "主页.canvas",
+    "docs/🌟灵感/灵感2025.1+2.md",
+    "docs/目录/阅读清单.md",
     "docs/📔日志/日志02-18.md",
+    "docs/折叠/TODO.md",
+    "主页.canvas",
     "docs/目录/概率论.md",
     "docs/目录/目录.md",
     "docs/目录/数学.md",
     "docs/目录/日常.md",
     "docs/目录/复变函数.md",
     "docs/目录/离散数学.md",
-    "docs/目录/阅读清单.md",
     "阅读.md",
-    "docs/折叠/TODO.md",
     "docs/reference/知乎er.md",
     "docs/reference/学物理真能去二次元吗  -  大致加点方案.md",
     "docs/reference/学物理真能去二次元吗目録知乎.md",
@@ -286,7 +302,6 @@
     "docs/ai-self-learning-main/3.编程篇/1.基础知识/README.md",
     "docs/折叠/待整理/知识库/计算机和硬件/折叠/编程/python基础.md",
     "docs/🧠算法/刷题.md",
-    "docs/🌟灵感/灵感2025.1+2.md",
     "docs/🧠算法/算法.canvas",
     "docs/折叠/未命名.canvas",
     "docs/目录",
