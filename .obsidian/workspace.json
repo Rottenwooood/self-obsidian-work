@@ -4,26 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f1e19bda2b1379",
+        "id": "c8a7f9ca859fabbf",
         "type": "tabs",
         "children": [
           {
-            "id": "8fd2a451db90e9b5",
+            "id": "87bd02766d4dff16",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "canvas",
               "state": {
-                "aFile": "docs/🌟灵感/灵感2025.1+2.md",
-                "bFile": "docs/🌟灵感/灵感2025.1+2.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "主页.canvas",
+                "viewState": {
+                  "x": 580,
+                  "y": -220,
+                  "zoom": 0
+                }
               },
-              "icon": "diff",
-              "title": "Diff: 灵感2025.1+2"
+              "icon": "lucide-layout-dashboard",
+              "title": "主页"
             }
           },
           {
-            "id": "00495e326551ed10",
+            "id": "5b7caa183017d989",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -31,8 +33,24 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "979a64cd37e5fe09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/资源.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "资源"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -64,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "数电",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,13 +103,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -112,7 +128,7 @@
             }
           },
           {
-            "id": "c667c7c02a081b1f",
+            "id": "78307562c596ed5a",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -192,7 +208,7 @@
             }
           },
           {
-            "id": "6de479b0e046e7ce",
+            "id": "ab179f2003a3e053",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -205,19 +221,9 @@
               "icon": "lucide-file",
               "title": "TODO"
             }
-          },
-          {
-            "id": "c0980a8bc59961b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -225,50 +231,51 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:打开快速切换": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "canvas:新建白板": false,
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": true,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "8fd2a451db90e9b5",
+  "active": "979a64cd37e5fe09",
   "lastOpenFiles": [
-    "docs/📔日志/日志02-18.md",
-    "conflict-files-obsidian-git.md",
-    "docs/🧠算法/刷题.md",
-    "docs/📔日志/日志02-17.md",
-    "主页.canvas",
-    "docs/🧠算法/专题/005数据结构.md",
-    "docs/🧠算法/算法-目录.md",
+    "docs/资源.md",
+    "docs/🌟灵感/目录-灵感.md",
     "docs/折叠/TODO.md",
-    "docs/目录/概率论.md",
-    "docs/目录/目录.md",
-    "docs/目录/数学.md",
-    "docs/目录/日常.md",
-    "docs/目录/复变函数.md",
-    "docs/目录/离散数学.md",
+    "主页.canvas",
     "docs/目录/阅读清单.md",
-    "阅读.md",
-    "docs/reference/知乎er.md",
-    "docs/reference/学物理真能去二次元吗  -  大致加点方案.md",
-    "docs/reference/学物理真能去二次元吗目録知乎.md",
-    "docs/pages/学物理真能去二次元吗  -  大致加点方案.md",
-    "docs/pages",
-    "docs/reference/⭐为什么知乎用户数学学得那么超前？.md",
-    "docs/ai-self-learning-main/1.新手关卡/README.md",
+    "docs/目录/数学学习.md",
+    "docs/目录/目录.md",
+    "高数下.md",
+    "docs/目录/复变函数.md",
+    "docs/目录/概率论.md",
     "docs/ai-self-learning-main/2.理论篇/1.基础知识/README.md",
-    "docs/ai-self-learning-main/3.编程篇/5.强化学习/README.md",
-    "docs/ai-self-learning-main/3.编程篇/4.自然语言处理/README.md",
-    "docs/ai-self-learning-main/3.编程篇/3.计算机视觉/README.md",
-    "docs/ai-self-learning-main/3.编程篇/2.机器学习/README.md",
-    "docs/🧠算法/算法.canvas",
+    "docs/📓周结/周结2025-W08-02-17.md",
+    "docs/📔日志/日志02-19.md",
+    "docs/📔日志/日志02-18.md",
+    "未命名.md",
+    "docs/📔日志/日志03-01.md",
+    "2月规划.md",
+    "docs/🧠算法/刷题.md",
+    "docs/📔日志/日志02-23.md",
+    "2025规划.md",
+    "docs/🌟灵感/灵感.canvas",
+    "学习记录.md",
+    "已阅读.md",
+    "docs/index.md",
+    "docs/工作流程.md",
     "docs/折叠/未命名.canvas",
+    "docs/折叠/C++ 运算符优先级总表.md",
+    "docs/折叠/每日必做.md",
+    "docs/折叠/attachment/Pasted image 20250211115056.png",
+    "docs/pages",
+    "docs/🧠算法/算法.canvas",
     "docs/目录",
     "docs/笔记",
     "docs/折叠/日志",
@@ -278,7 +285,6 @@
     "docs/算法/算法模板",
     "docs/🧠算法/专题",
     "docs/时间线",
-    "docs/折叠/attachment/Pasted image 20250211115056.png",
     "docs/待整理/assets/logo.png",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
     "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",

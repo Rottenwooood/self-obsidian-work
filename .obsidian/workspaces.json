@@ -6,19 +6,19 @@
         "type": "split",
         "children": [
           {
-            "id": "f3f1e19bda2b1379",
+            "id": "c8a7f9ca859fabbf",
             "type": "tabs",
             "children": [
               {
-                "id": "8fd2a451db90e9b5",
+                "id": "87bd02766d4dff16",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
                     "file": "主页.canvas",
                     "viewState": {
-                      "x": 725,
-                      "y": -190,
+                      "x": 580,
+                      "y": -220,
                       "zoom": 0
                     }
                   },
@@ -27,22 +27,7 @@
                 }
               },
               {
-                "id": "2d7a425bd1bc986f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/目录/学习规划.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "学习规划"
-                }
-              },
-              {
-                "id": "00495e326551ed10",
+                "id": "5b7caa183017d989",
                 "type": "leaf",
                 "state": {
                   "type": "full-calendar-view",
@@ -83,7 +68,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "数电",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -104,8 +89,7 @@
                   "title": "书签"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -200,7 +184,7 @@
                 }
               },
               {
-                "id": "6de479b0e046e7ce",
+                "id": "ab179f2003a3e053",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -213,24 +197,9 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
-              },
-              {
-                "id": "c0980a8bc59961b9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/目录/阅读清单.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "阅读清单"
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -238,20 +207,20 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:打开快速切换": false,
           "homepage:Open homepage": false,
           "obsidian-git:Open Git source control": false,
-          "switcher:打开快速切换": true,
           "graph:查看关系图谱": true,
           "canvas:新建白板": false,
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,
           "obsidian-full-calendar:Open Full Calendar": false,
-          "periodic-notes:Open today": false,
+          "periodic-notes:Open today": true,
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "c0980a8bc59961b9",
-      "mtime": "2025-02-17T19:40:58+08:00"
+      "active": "87bd02766d4dff16",
+      "mtime": "2025-02-19T00:17:02+08:00"
     },
     "算法": {
       "main": {
@@ -259,254 +228,22 @@
         "type": "split",
         "children": [
           {
-            "id": "c3bab927d00ffc33",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "434363707651d98f",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "docs/算法/算法.canvas",
-                    "viewState": {
-                      "x": 94.39993286132812,
-                      "y": -225.80001831054688,
-                      "zoom": 0
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "算法"
-                }
-              },
-              {
-                "id": "6022afea6a266b6d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/算法/目录.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "目录"
-                }
-              },
-              {
-                "id": "e40a0edf3b463ce8",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://www.luogu.com.cn/training/9391",
-                    "title": "能力全面提升综合题单 - 题单 - 洛谷 | 计算机科学教育新生态",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "能力全面提升综合题单 - 题单 - 洛谷 | 计算机科学教育新生态"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "f2b14979265a44fd",
-        "type": "split",
-        "children": [
-          {
-            "id": "ade6bf3ab263af7b",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "1693419bb2df7586",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": true
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "文件列表"
-                }
-              },
-              {
-                "id": "57f39cea2cdea9b1",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "搜索"
-                }
-              },
-              {
-                "id": "06e66b2cdb5e04dc",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "书签"
-                }
-              }
-            ],
-            "currentTab": 2
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300
-      },
-      "right": {
-        "id": "c064049ee1a8be91",
-        "type": "split",
-        "children": [
-          {
-            "id": "719dc257ebaf3a0a",
-            "type": "tabs",
-            "dimension": 38.349514563106794,
-            "children": [
-              {
-                "id": "0cf53620553924ab",
-                "type": "leaf",
-                "state": {
-                  "type": "calendar",
-                  "state": {},
-                  "icon": "calendar-with-checkmark",
-                  "title": "Calendar"
-                }
-              }
-            ]
-          },
-          {
-            "id": "ac7f66e5e2e94039",
-            "type": "tabs",
-            "dimension": 61.6504854368932,
-            "children": [
-              {
-                "id": "cf517d380e302489",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "docs/折叠/灵感/灵感2025.1+2.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "灵感2025.1+2 的出链列表"
-                }
-              },
-              {
-                "id": "eb3ed51259e96a9f",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "docs/算法/目录.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "目录 的大纲"
-                }
-              },
-              {
-                "id": "fac4d1a31f185972",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "docs/算法/目录.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-coming-in",
-                  "title": "目录 的反向链接列表"
-                }
-              },
-              {
-                "id": "15d2443ce6af5c28",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-tags",
-                  "title": "标签"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 300,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:打开快速切换": false,
-          "graph:查看关系图谱": false,
-          "canvas:新建白板": false,
-          "templates:插入模板": false,
-          "command-palette:打开命令面板": false,
-          "homepage:Open homepage": false,
-          "workspaces:管理工作区布局": false,
-          "obsidian-day-planner:Open Timeline": false,
-          "obsidian-day-planner:Open Multi-Day View": false
-        }
-      },
-      "active": "6022afea6a266b6d",
-      "mtime": "2025-02-11T16:40:44+08:00"
-    },
-    "算法-搜索": {
-      "main": {
-        "id": "5324373015726ba8",
-        "type": "split",
-        "children": [
-          {
             "id": "c70b51e67266de61",
             "type": "tabs",
-            "dimension": 47.63843648208469,
             "children": [
               {
                 "id": "6cc166fd9e098361",
                 "type": "leaf",
                 "state": {
-                  "type": "canvas",
+                  "type": "markdown",
                   "state": {
-                    "file": "docs/算法/算法.canvas",
-                    "viewState": {
-                      "x": 214.38094598091448,
-                      "y": -395.0444728568,
-                      "zoom": -0.4169237571852635
-                    }
+                    "file": "docs/🧠算法/算法-目录.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
                   },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "算法"
+                  "icon": "lucide-file",
+                  "title": "算法-目录"
                 }
               },
               {
@@ -515,7 +252,22 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/算法/专题/005数据结构.md",
+                    "file": "docs/🧠算法/刷题.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "刷题"
+                }
+              },
+              {
+                "id": "f9d9e65145255119",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/🧠算法/专题/005数据结构.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -525,29 +277,7 @@
                 }
               }
             ],
-            "currentTab": 1
-          },
-          {
-            "id": "f244f21193dd298e",
-            "type": "tabs",
-            "dimension": 52.36156351791531,
-            "children": [
-              {
-                "id": "f9d9e65145255119",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/算法/刷题.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刷题"
-                }
-              }
-            ]
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -720,7 +450,6 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "time-ruler:Open Time Ruler": false,
           "obsidian-git:Open Git source control": false,
           "periodic-notes:Open today": true,
           "switcher:打开快速切换": true,
@@ -729,13 +458,13 @@
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,
           "homepage:Open homepage": false,
-          "workspaces:管理工作区布局": false,
-          "obsidian-full-calendar:Open Full Calendar": false
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "workspaces:管理工作区布局": false
         }
       },
-      "active": "7f603ce6b37c95e3",
-      "mtime": "2025-02-16T22:45:26+08:00"
+      "active": "f9d9e65145255119",
+      "mtime": "2025-02-18T21:44:26+08:00"
     }
   },
-  "active": "算法-搜索"
+  "active": "默认"
 }
