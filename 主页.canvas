@@ -1,11 +1,9 @@
 {
 	"nodes":[
-		{"id":"b080d034bc1f5b13","type":"text","text":"[[资源]]\n[[灵感2025.1+2]]\n[[资源#娱乐]]","x":320,"y":-45,"width":250,"height":165},
-		{"id":"c2ca43bc5b45d877","type":"text","text":"## 学习记录\n[[周结2025-W04-01-20]]\n[[周结2025-W05-01-27]]\n[[周结2025-W06-02-03]]\n[[周结2025-W07-02-10]]\n[[周结2025-W08-02-17]]\n\n\n\n","x":600,"y":-500,"width":250,"height":249},
-		{"id":"4f673a70f7174f4e","type":"file","file":"docs/目录/学习规划.md","x":600,"y":-210,"width":250,"height":330},
-		{"id":"bd1e05f718274d23","type":"file","file":"docs/目录/阅读清单.md","x":880,"y":-160,"width":250,"height":280},
-		{"id":"f0ef61320fbe5a56","type":"text","text":"![[TODO#周期性]]","x":880,"y":-500,"width":250,"height":290},
-		{"id":"350f67716ec0a41e","type":"file","file":"docs/目录/目录.md","x":320,"y":-500,"width":250,"height":439}
+		{"id":"350f67716ec0a41e","type":"file","file":"docs/目录/目录.md","x":560,"y":-520,"width":440,"height":600},
+		{"id":"4100703c5ad07a69","type":"text","text":"## 娱乐\n[[资源#娱乐]]\n[[目录-灵感]]","x":160,"y":-360,"width":250,"height":110},
+		{"id":"3ce607e2d68c199b","type":"text","text":"## 阅读\n[[阅读清单]]\n[[已阅读]]\n[[灵感-知乎]]\n[[灵感-bilibili]]\n[[目录-灵感]]","x":160,"y":-220,"width":250,"height":200},
+		{"id":"2e8750516a7df71f","type":"text","text":"## 学习\n[[目录#学习]]","x":160,"y":-480,"width":250,"height":100}
 	],
 	"edges":[]
 }

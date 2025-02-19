@@ -6,19 +6,19 @@
         "type": "split",
         "children": [
           {
-            "id": "f3f1e19bda2b1379",
+            "id": "c8a7f9ca859fabbf",
             "type": "tabs",
             "children": [
               {
-                "id": "8fd2a451db90e9b5",
+                "id": "87bd02766d4dff16",
                 "type": "leaf",
                 "state": {
                   "type": "canvas",
                   "state": {
                     "file": "主页.canvas",
                     "viewState": {
-                      "x": 725,
-                      "y": -190,
+                      "x": 580,
+                      "y": -220,
                       "zoom": 0
                     }
                   },
@@ -27,22 +27,7 @@
                 }
               },
               {
-                "id": "2d7a425bd1bc986f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/目录/学习规划.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "学习规划"
-                }
-              },
-              {
-                "id": "00495e326551ed10",
+                "id": "5b7caa183017d989",
                 "type": "leaf",
                 "state": {
                   "type": "full-calendar-view",
@@ -83,7 +68,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "数电",
+                    "query": "",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -104,8 +89,7 @@
                   "title": "书签"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -200,7 +184,7 @@
                 }
               },
               {
-                "id": "6de479b0e046e7ce",
+                "id": "ab179f2003a3e053",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -213,24 +197,9 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
-              },
-              {
-                "id": "c0980a8bc59961b9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/目录/阅读清单.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "阅读清单"
-                }
               }
             ],
-            "currentTab": 5
+            "currentTab": 4
           }
         ],
         "direction": "horizontal",
@@ -238,20 +207,20 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "switcher:打开快速切换": false,
           "homepage:Open homepage": false,
           "obsidian-git:Open Git source control": false,
-          "switcher:打开快速切换": true,
           "graph:查看关系图谱": true,
           "canvas:新建白板": false,
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,
           "obsidian-full-calendar:Open Full Calendar": false,
-          "periodic-notes:Open today": false,
+          "periodic-notes:Open today": true,
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "c0980a8bc59961b9",
-      "mtime": "2025-02-17T19:40:58+08:00"
+      "active": "87bd02766d4dff16",
+      "mtime": "2025-02-19T00:17:02+08:00"
     },
     "算法": {
       "main": {
@@ -259,11 +228,34 @@
         "type": "split",
         "children": [
           {
+<<<<<<< HEAD
             "id": "e3a5be7f5c3b1efc",
             "type": "tabs",
             "children": [
               {
                 "id": "a4d219ab7cf34e48",
+=======
+            "id": "c70b51e67266de61",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6cc166fd9e098361",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "docs/🧠算法/算法-目录.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "算法-目录"
+                }
+              },
+              {
+                "id": "cbb79349440ca357",
+>>>>>>> origin/main
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -278,7 +270,11 @@
                 }
               },
               {
+<<<<<<< HEAD
                 "id": "35cb491b07d4dccb",
+=======
+                "id": "f9d9e65145255119",
+>>>>>>> origin/main
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -291,6 +287,7 @@
                   "icon": "lucide-file",
                   "title": "005数据结构"
                 }
+<<<<<<< HEAD
               },
               {
                 "id": "ac6126e6f0d73a97",
@@ -306,6 +303,8 @@
                   "icon": "lucide-file",
                   "title": "算法-目录"
                 }
+=======
+>>>>>>> origin/main
               }
             ],
             "currentTab": 2
@@ -490,13 +489,17 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+<<<<<<< HEAD
           "homepage:Open homepage": false,
+=======
+>>>>>>> origin/main
           "obsidian-git:Open Git source control": false,
           "switcher:打开快速切换": true,
           "graph:查看关系图谱": true,
           "canvas:新建白板": false,
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,
+<<<<<<< HEAD
           "obsidian-full-calendar:Open Full Calendar": false,
           "periodic-notes:Open today": false,
           "workspaces:管理工作区布局": false
@@ -504,6 +507,15 @@
       },
       "active": "ac6126e6f0d73a97",
       "mtime": "2025-02-18T21:55:32+08:00"
+=======
+          "homepage:Open homepage": false,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "workspaces:管理工作区布局": false
+        }
+      },
+      "active": "f9d9e65145255119",
+      "mtime": "2025-02-18T21:44:26+08:00"
+>>>>>>> origin/main
     }
   },
   "active": "默认"
