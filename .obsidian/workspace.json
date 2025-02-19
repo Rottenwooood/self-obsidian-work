@@ -48,8 +48,24 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "4f0679f12bac1afd",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "docs/reference/2.19 滑动窗口.md",
+                "bFile": "docs/reference/2.19 滑动窗口.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: 2.19 滑动窗口"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -254,14 +270,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c0980a8bc59961b9",
+  "active": "4f0679f12bac1afd",
   "lastOpenFiles": [
+    "docs/reference/2.19 滑动窗口.md",
+    "conflict-files-obsidian-git.md",
     "主页.canvas",
     "docs/折叠/TODO.md",
     "docs/目录/电路.md",
-    "docs/reference/2.19 滑动窗口.md",
     "docs/📔日志/日志02-19.md",
-    "conflict-files-obsidian-git.md",
     "待整理/知识库/计算机和硬件/折叠/学习笔记/零散/门电路.md",
     "待整理/知识库/计算机和硬件/折叠/学习笔记/零散/继电器.md",
     "待整理/知识库/计算机和硬件/折叠/学习笔记/零散/稳压二极管.md",
