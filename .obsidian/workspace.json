@@ -4,11 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "c8a7f9ca859fabbf",
+        "id": "f3f1e19bda2b1379",
         "type": "tabs",
         "children": [
           {
-            "id": "5b7caa183017d989",
+            "id": "8fd2a451db90e9b5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "主页.canvas",
+                "viewState": {
+                  "x": 604.2000122070312,
+                  "y": -204.40000915527344,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "主页"
+            }
+          },
+          {
+            "id": "00495e326551ed10",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -16,24 +33,8 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "12dfcd397fd89927",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/目录/概率论.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "概率论"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +112,7 @@
             }
           },
           {
-            "id": "332e87abe11f3574",
+            "id": "2e265ee984616de8",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "主页.canvas",
+                "file": "docs/📓周结/周结2025-W08-02-17.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,7 +192,7 @@
             }
           },
           {
-            "id": "ab179f2003a3e053",
+            "id": "6de479b0e046e7ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -214,9 +215,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
+      "switcher:打开快速切换": true,
       "graph:查看关系图谱": true,
       "canvas:新建白板": false,
       "templates:插入模板": true,
@@ -226,40 +227,44 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "332e87abe11f3574",
+  "active": "8fd2a451db90e9b5",
   "lastOpenFiles": [
-    "docs/目录/离散数学.md",
-    "docs/📔日志/日志02-19.md",
-    "docs/📔日志/日志02-20.md",
     "docs/折叠/TODO.md",
-    "docs/🧠算法/刷题.md",
-    "docs/🧠算法/专题/005数据结构.md",
-    "docs/目录/数学学习.md",
-    "主页.canvas",
-    "docs/🧠算法/算法-目录.md",
-    "docs/reference/2.19 滑动窗口.md",
-    "docs/资源.md",
-    "conflict-files-obsidian-git.md",
-    "docs/📔日志/日志02-18.md",
-    "docs/🌟灵感/目录-灵感.md",
-    "docs/目录/阅读清单.md",
-    "docs/目录/目录.md",
-    "高数下.md",
-    "docs/目录/复变函数.md",
-    "docs/目录/概率论.md",
-    "docs/ai-self-learning-main/2.理论篇/1.基础知识/README.md",
     "docs/📓周结/周结2025-W08-02-17.md",
-    "未命名.md",
-    "docs/📔日志/日志03-01.md",
-    "2月规划.md",
-    "docs/📔日志/日志02-23.md",
-    "2025规划.md",
+    "docs/📓周结/周结2025-W09-02-24.md",
+    "docs/🧠算法/刷题.md",
+    "docs/🧠算法/算法-目录.md",
+    "docs/🧠算法/专题/006动态规划.md",
     "docs/🌟灵感/灵感.canvas",
+    "docs/🌟灵感/目录-灵感.md",
+    "主页.canvas",
+    "docs/📔日志/日志02-20.md",
+    "docs/🧠算法/专题/005数据结构.md",
+    "docs/🧠算法/算法.canvas",
+    "已阅读.md",
     "学习记录.md",
+    "怎么能让书里的信息成为自己的知识呢.md",
+    "docs/目录/阅读清单.md",
+    "docs/📔日志/日志02-21.md",
+    "docs/reference/怎么能让书里的信息成为自己的知识呢？ - 知乎.url",
+    "docs/reference/如何读书.md",
+    "未命名.canvas",
+    "docs/reference/小镇做题家”如何自学（数学及自然科学）.md",
+    "docs/🌟灵感/灵感-bilibili.md",
+    "docs/📔日志/日志02-19.md",
+    "docs/📔日志/日志02-22.md",
+    "2025规划.md",
+    "docs/资源.md",
+    "docs/折叠/attachment/29faqhjl.bmp",
+    "docs/折叠/attachment",
+    "docs/目录/概率论.md",
+    "docs/目录/离散数学.md",
+    "docs/目录/数学学习.md",
+    "docs/reference/2.19 滑动窗口.md",
+    "conflict-files-obsidian-git.md",
     "docs/折叠/未命名.canvas",
     "docs/折叠/attachment/Pasted image 20250211115056.png",
     "docs/pages",
-    "docs/🧠算法/算法.canvas",
     "docs/目录",
     "docs/笔记",
     "docs/折叠/日志",
@@ -267,8 +272,6 @@
     "docs/折叠/attachment/能力全面提升综合题单 - 题单 - 洛谷 _ 计算机科学教育新生态.url",
     "docs/折叠/attachment/分享｜如何科学刷题？ - 力扣（LeetCode）.url",
     "docs/算法/算法模板",
-    "docs/🧠算法/专题",
-    "docs/时间线",
     "docs/待整理/assets/logo.png",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
     "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",

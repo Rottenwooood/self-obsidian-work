@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"d0d2a2867704a944","type":"text","text":"阅读清单","x":-318,"y":-181,"width":250,"height":60},
+		{"id":"473554d5f3b3ae72","type":"text","text":"阅读归档","x":40,"y":-181,"width":250,"height":60},
+		{"id":"e78acda43bdd77a1","type":"text","text":"reference","x":40,"y":-80,"width":250,"height":60},
+		{"id":"a690575e97e5781e","type":"text","text":"标签管理\n如`#input` ，`#反复观看`","x":-318,"y":-108,"width":250,"height":116},
+		{"id":"5ec90dce22b10f9b","type":"text","text":"新的库","x":-318,"y":20,"width":250,"height":60}
+	],
+	"edges":[]
+}
