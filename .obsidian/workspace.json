@@ -25,7 +25,17 @@
             }
           },
           {
-            "id": "00495e326551ed10",
+            "id": "561e4026c6a54ea0",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
+            "id": "856db9e8e65372d1",
             "type": "leaf",
             "state": {
               "type": "full-calendar-view",
@@ -33,8 +43,39 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "99847ed7c6abddc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "TNO.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "TNO"
+            }
+          },
+          {
+            "id": "11734bf6fabe9985",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📓周结/周结2025-W08-02-17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "周结2025-W08-02-17"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -91,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -112,7 +154,7 @@
             }
           },
           {
-            "id": "2e265ee984616de8",
+            "id": "a46fd2f43619e4ed",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -195,15 +237,10 @@
             "id": "6de479b0e046e7ce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/折叠/TODO.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "新标签页"
             }
           }
         ],
@@ -215,6 +252,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-memos:Thino": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
       "switcher:打开快速切换": true,
@@ -227,51 +265,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8fd2a451db90e9b5",
+  "active": "11734bf6fabe9985",
   "lastOpenFiles": [
-    "docs/折叠/TODO.md",
-    "docs/📓周结/周结2025-W08-02-17.md",
-    "docs/📓周结/周结2025-W09-02-24.md",
-    "docs/🧠算法/刷题.md",
-    "docs/🧠算法/算法-目录.md",
-    "docs/🧠算法/专题/006动态规划.md",
-    "docs/🌟灵感/灵感.canvas",
-    "docs/🌟灵感/目录-灵感.md",
+    "TNO.md",
+    "🧠算法/算法-目录.md",
     "主页.canvas",
-    "docs/📔日志/日志02-20.md",
-    "docs/🧠算法/专题/005数据结构.md",
-    "docs/🧠算法/算法.canvas",
-    "已阅读.md",
-    "学习记录.md",
-    "怎么能让书里的信息成为自己的知识呢.md",
-    "docs/目录/阅读清单.md",
-    "docs/📔日志/日志02-21.md",
-    "docs/reference/怎么能让书里的信息成为自己的知识呢？ - 知乎.url",
-    "docs/reference/如何读书.md",
-    "未命名.canvas",
-    "docs/reference/小镇做题家”如何自学（数学及自然科学）.md",
-    "docs/🌟灵感/灵感-bilibili.md",
-    "docs/📔日志/日志02-19.md",
-    "docs/📔日志/日志02-22.md",
-    "2025规划.md",
-    "docs/资源.md",
-    "docs/折叠/attachment/29faqhjl.bmp",
+    "📅代办库/技术趣事.md",
+    "📔日志/日志02-24.md",
+    "📔日志/日志02-25.md",
+    "📓周结/周结2025-W09-02-24.md",
+    "📓周结/周结2025-W08-02-17.md",
+    "📅代办库/阅读清单.md",
+    "reference/mlm的学习.md",
+    "资源.md",
+    "ai学习路径.md",
+    "📔日志/日志02-23.md",
+    "ai的建议.md",
+    "📔日志/日志02-22.md",
+    "📔日志/日志02-26.md",
+    "📔日志/日志02-17.md",
+    "目录/已阅读.md",
+    "reference/知乎er.md",
+    "reference/小镇做题家”如何自学（数学及自然科学）.md",
+    "reference/如何读书.md",
+    "reference/毛选.md",
+    "reference/结构化思维.md",
+    "reference/怎么能让书里的信息成为自己的知识呢.md",
+    "reference/学物理真能去二次元吗目録知乎.md",
+    "📔日志/日志02-19.md",
+    "📔日志/日志02-21.md",
+    "未命名 1.canvas",
+    "📒月结",
+    "docs/折叠/attachment/Pasted image 20250222224025.png",
+    "📅代办库/未命名",
     "docs/折叠/attachment",
-    "docs/目录/概率论.md",
-    "docs/目录/离散数学.md",
-    "docs/目录/数学学习.md",
-    "docs/reference/2.19 滑动窗口.md",
-    "conflict-files-obsidian-git.md",
-    "docs/折叠/未命名.canvas",
+    "docs/折叠",
+    "docs",
+    "算法",
+    "Tags",
+    "🧠算法/算法.canvas",
+    "🌟灵感/灵感.canvas",
+    "折叠/b_90ea933ef48baf4b5b40b15cf44fd20e.jpg",
+    "折叠/未命名.canvas",
+    "📅代办库",
+    "未命名.canvas",
+    "reference/怎么能让书里的信息成为自己的知识呢？ - 知乎.url",
+    "折叠/attachment/29faqhjl.bmp",
+    "折叠/attachment",
     "docs/折叠/attachment/Pasted image 20250211115056.png",
-    "docs/pages",
-    "docs/目录",
-    "docs/笔记",
-    "docs/折叠/日志",
-    "docs/🧠算法/模板",
-    "docs/折叠/attachment/能力全面提升综合题单 - 题单 - 洛谷 _ 计算机科学教育新生态.url",
-    "docs/折叠/attachment/分享｜如何科学刷题？ - 力扣（LeetCode）.url",
-    "docs/算法/算法模板",
     "docs/待整理/assets/logo.png",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
     "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",

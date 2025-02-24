@@ -1,8 +1,8 @@
 {
 	"nodes":[
-		{"id":"350f67716ec0a41e","type":"file","file":"docs/目录/目录.md","x":560,"y":-520,"width":440,"height":600},
+		{"id":"350f67716ec0a41e","type":"file","file":"目录/目录.md","x":560,"y":-520,"width":440,"height":600},
 		{"id":"4100703c5ad07a69","type":"text","text":"## 娱乐\n[[资源#娱乐]]\n[[目录-灵感]]","x":160,"y":-360,"width":250,"height":110},
-		{"id":"3ce607e2d68c199b","type":"text","text":"## 阅读\n[[阅读清单]]\n[[已阅读]]\n[[灵感-知乎]]\n[[灵感-bilibili]]\n[[目录-灵感]]","x":160,"y":-220,"width":250,"height":200},
+		{"id":"3ce607e2d68c199b","type":"text","text":"## 阅读\n[[目录/阅读清单]]\n[[已阅读]]\n[[灵感-知乎]]\n[[灵感-bilibili]]\n[[目录-灵感]]","x":160,"y":-220,"width":250,"height":200},
 		{"id":"2e8750516a7df71f","type":"text","text":"## 学习\n[[目录#学习]]","x":160,"y":-480,"width":250,"height":100}
 	],
 	"edges":[]

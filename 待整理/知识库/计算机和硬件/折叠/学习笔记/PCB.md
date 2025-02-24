@@ -8,11 +8,11 @@
 
 ​	PO口上电复位后处于开漏模式，当PO管脚作I/0口（GPIO）时，需外加10K-4.7K的上拉电阻，当P0管脚作为地址/数据复用总线使用时，不用外加上拉电阻。
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214501330.png" alt="image-20240811214501330" style="zoom:50%;" />
+![image-20240811214501330](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214501330.png)
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214611284.png" alt="image-20240811214611284" style="zoom:50%;" />
+![image-20240811214611284](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214611284.png)
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214710107.png" alt="image-20240811214710107" style="zoom: 33%;" />
+![image-20240811214710107](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240811214710107.png)
 
 最小的去耦电容靠近芯片供电引脚摆放
 
@@ -34,13 +34,13 @@
 
 电源（VCC,GND）,输入，输出，设置
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818153803827.png" alt="image-20240818153803827" style="zoom:50%;" />
+![image-20240818153803827](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818153803827.png)
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818153823126.png" alt="image-20240818153823126" style="zoom:33%;" />
+![image-20240818153823126](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818153823126.png)
 
 #### NE555
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154339754.png" alt="image-20240818154339754" style="zoom:50%;" /><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154320071.png" alt="image-20240818154320071" style="zoom:50%;" /><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154855516.png" alt="image-20240818154855516" style="zoom:33%;" /><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818155116813.png" alt="image-20240818155116813" style="zoom:33%;" />
+![image-20240818154339754](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154339754.png)![image-20240818154320071](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154320071.png)![image-20240818154855516](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818154855516.png)![image-20240818155116813](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20240818155116813.png)
 
 即RS锁存器
 

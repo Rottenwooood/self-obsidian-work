@@ -27,7 +27,7 @@
                 }
               },
               {
-                "id": "00495e326551ed10",
+                "id": "856db9e8e65372d1",
                 "type": "leaf",
                 "state": {
                   "type": "full-calendar-view",
@@ -187,15 +187,10 @@
                 "id": "6de479b0e046e7ce",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/TODO.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "TODO"
+                  "title": "新标签页"
                 }
               }
             ],
@@ -207,6 +202,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-memos:Thino": false,
           "homepage:Open homepage": false,
           "obsidian-git:Open Git source control": false,
           "switcher:打开快速切换": true,
@@ -216,11 +212,11 @@
           "command-palette:打开命令面板": true,
           "obsidian-full-calendar:Open Full Calendar": false,
           "workspaces:管理工作区布局": false,
-          "periodic-notes:Open today": false
+          "periodic-notes:Open today": true
         }
       },
       "active": "8fd2a451db90e9b5",
-      "mtime": "2025-02-20T13:15:34+08:00"
+      "mtime": "2025-02-21T20:56:21+08:00"
     },
     "算法": {
       "main": {
@@ -232,27 +228,29 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a4d219ab7cf34e48",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/🧠算法/刷题.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "刷题"
-                }
-              },
-              {
                 "id": "35cb491b07d4dccb",
                 "type": "leaf",
                 "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "🧠算法/算法.canvas",
+                    "viewState": {
+                      "x": 129.5,
+                      "y": -790.5,
+                      "zoom": -0.427510642265079
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "算法"
+                }
+              },
+              {
+                "id": "ac6126e6f0d73a97",
+                "type": "leaf",
+                "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/🧠算法/专题/006动态规划.md",
+                    "file": "🧠算法/专题/006动态规划.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -262,37 +260,22 @@
                 }
               },
               {
-                "id": "ac6126e6f0d73a97",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/🧠算法/算法-目录.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "算法-目录"
-                }
-              },
-              {
                 "id": "c30ed340e9a5a165",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/📔日志/日志02-20.md",
+                    "file": "🧠算法/刷题.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
                   },
                   "icon": "lucide-file",
-                  "title": "日志02-20"
+                  "title": "刷题"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -349,7 +332,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 200
+        "width": 200,
+        "collapsed": true
       },
       "right": {
         "id": "c064049ee1a8be91",
@@ -442,15 +426,10 @@
                 "id": "6de479b0e046e7ce",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "docs/折叠/TODO.md",
-                    "mode": "source",
-                    "source": false,
-                    "backlinks": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "TODO"
+                  "title": "新标签页"
                 }
               }
             ],
@@ -462,6 +441,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-memos:Thino": false,
           "homepage:Open homepage": false,
           "obsidian-git:Open Git source control": false,
           "switcher:打开快速切换": false,
@@ -474,8 +454,8 @@
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "35cb491b07d4dccb",
-      "mtime": "2025-02-20T16:13:22+08:00"
+      "active": "c30ed340e9a5a165",
+      "mtime": "2025-02-21T21:03:09+08:00"
     },
     "概率论": {
       "main": {
@@ -1009,6 +989,239 @@
       },
       "active": "8fd2a451db90e9b5",
       "mtime": "2025-02-19T23:45:54+08:00"
+    },
+    "mcu": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "f3f1e19bda2b1379",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8fd2a451db90e9b5",
+                "type": "leaf",
+                "state": {
+                  "type": "canvas",
+                  "state": {
+                    "file": "主页.canvas",
+                    "viewState": {
+                      "x": 604.2000122070312,
+                      "y": -204.40000915527344,
+                      "zoom": 0
+                    }
+                  },
+                  "icon": "lucide-layout-dashboard",
+                  "title": "主页"
+                }
+              },
+              {
+                "id": "9761df9b91f26e22",
+                "type": "leaf",
+                "state": {
+                  "type": "thino_view",
+                  "state": {},
+                  "icon": "Memos",
+                  "title": "Thino"
+                }
+              },
+              {
+                "id": "856db9e8e65372d1",
+                "type": "leaf",
+                "state": {
+                  "type": "full-calendar-view",
+                  "state": {},
+                  "icon": "calendar-glyph",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "5d3305b41fdffeae",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "🖥单片机/51.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "51"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "f2b14979265a44fd",
+        "type": "split",
+        "children": [
+          {
+            "id": "ade6bf3ab263af7b",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "46a329fad8e7b5d8",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "文件列表"
+                }
+              },
+              {
+                "id": "57f39cea2cdea9b1",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "搜索"
+                }
+              },
+              {
+                "id": "06e66b2cdb5e04dc",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "书签"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200
+      },
+      "right": {
+        "id": "c064049ee1a8be91",
+        "type": "split",
+        "children": [
+          {
+            "id": "a8ff020d785e4cc8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "0cf53620553924ab",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              }
+            ]
+          },
+          {
+            "id": "ac7f66e5e2e94039",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "cf517d380e302489",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "主页.canvas",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "周结2025-W07-02-10 的出链列表"
+                }
+              },
+              {
+                "id": "eb3ed51259e96a9f",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "docs/📓周结/周结2025-W08-02-17.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "周结2025-W07-02-10 的大纲"
+                }
+              },
+              {
+                "id": "fac4d1a31f185972",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "主页.canvas",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "周结2025-W07-02-10 的反向链接列表"
+                }
+              },
+              {
+                "id": "15d2443ce6af5c28",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "标签"
+                }
+              }
+            ],
+            "currentTab": 3
+          }
+        ],
+        "direction": "horizontal",
+        "width": 300
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obsidian-memos:Thino": false,
+          "homepage:Open homepage": false,
+          "obsidian-git:Open Git source control": false,
+          "switcher:打开快速切换": true,
+          "graph:查看关系图谱": true,
+          "canvas:新建白板": false,
+          "templates:插入模板": true,
+          "command-palette:打开命令面板": true,
+          "obsidian-full-calendar:Open Full Calendar": false,
+          "workspaces:管理工作区布局": false,
+          "periodic-notes:Open today": false
+        }
+      },
+      "active": "5d3305b41fdffeae",
+      "mtime": "2025-02-23T14:12:20+08:00"
     }
   },
   "active": "默认"
