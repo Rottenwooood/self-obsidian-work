@@ -11,27 +11,15 @@
             "id": "8fd2a451db90e9b5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "主页.canvas",
-                "viewState": {
-                  "x": 604.2000122070312,
-                  "y": -204.40000915527344,
-                  "zoom": 0
-                }
+                "file": "reference/英语学习.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "主页"
-            }
-          },
-          {
-            "id": "a087d27fc2b4402a",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
+              "icon": "lucide-file",
+              "title": "英语学习"
             }
           },
           {
@@ -43,38 +31,8 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
-          },
-          {
-            "id": "15eb7dbd0989e1f0",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git"
-            }
-          },
-          {
-            "id": "aaa0fb61b1a9d78a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -260,51 +218,53 @@
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
       "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "publish:发布更改": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "15eb7dbd0989e1f0",
+  "active": "8fd2a451db90e9b5",
   "lastOpenFiles": [
-    "竞赛&考试.md",
-    "conflict-files-obsidian-git.md",
-    "reference/英语学习.md",
-    "reference/动手学深度学习.md",
-    "reference/ai的建议.md",
-    "reference/ai学习路径.md",
-    "reference/TNO.md",
-    "reference/PROJECT.md",
-    "🧠算法/算法-目录.md",
-    "docs/折叠/attachment/lpytfpck.bmp",
-    "主页.canvas",
-    "资源.md",
-    "🧠算法/数据结构/链表/经典/001 删除元素.md",
-    "🧠算法/刷题.md",
-    "📔日志/日志02-24.md",
-    "英语学习.md",
-    "📔日志/日志02-14.md",
-    "待整理/知识库/其他/代办/代办.md",
-    "reference/mlm的学习.md",
-    "📅代办库/阅读清单.md",
-    "TNO.md",
-    "📔日志/日志02-22.md",
-    "📔日志/日志02-15.md",
-    "📅代办库/归档.md",
-    "📅代办库/周期性.md",
-    "📅代办库/长期.md",
-    "📅代办库/杂事.md",
-    "目录/概率论.md",
+    "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
+    "docs/折叠/attachment/Pasted image 20250222224025.png",
+    "docs/折叠/attachment/lpytfpck.bmp",
     "docs/折叠/attachment/入坑具身智能？把这几节课学了就够了！_2_许华哲Harry_来自小红书网页版.jpg",
+    "reference/TNO.md",
+    "reference/scanf函数.md",
+    "reference/PROJECT.md",
+    "reference/obsidian.md",
+    "reference/new git.md",
+    "reference/mlm的学习.md",
+    "reference/github技巧.md",
+    "reference/git.md",
+    "reference/cursor.md",
+    "reference/ai学习路径.md",
+    "reference/ai的建议.md",
+    "reference/知乎er.md",
+    "reference/怎么能让书里的信息成为自己的知识呢.md",
+    "reference/英语学习.md",
+    "reference/学物理真能去二次元吗目録知乎.md",
+    "reference/学物理真能去二次元吗  -  大致加点方案.md",
+    "reference/如何读书.md",
+    "reference/小镇做题家”如何自学（数学及自然科学）.md",
+    "reference/毛选.md",
+    "reference/佬の周结.md",
+    "reference/具身智能学习路线.md",
+    "reference/结构化思维.md",
+    "reference/动手学深度学习.md",
+    "reference/2.19 滑动窗口.md",
+    "reference/⭐为什么知乎用户数学学得那么超前？.md",
+    "主页.canvas",
+    "🧠算法/算法.canvas",
     "未命名 1.canvas",
     "📒月结",
-    "docs/折叠/attachment/Pasted image 20250222224025.png",
     "📅代办库/未命名",
     "docs/折叠/attachment",
     "docs/折叠",
     "docs",
     "算法",
     "Tags",
-    "🧠算法/算法.canvas",
     "🌟灵感/灵感.canvas",
     "折叠/b_90ea933ef48baf4b5b40b15cf44fd20e.jpg",
     "折叠/未命名.canvas",

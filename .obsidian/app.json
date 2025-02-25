@@ -3,12 +3,14 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": true,
   "rightToLeft": false,
-  "attachmentFolderPath": "docs/折叠/attachment",
+  "attachmentFolderPath": "折叠/attachment",
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "reference"
 }

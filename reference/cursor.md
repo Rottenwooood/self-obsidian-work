@@ -1,3 +1,9 @@
+---
+tags:
+  - 笔记
+  - 参考
+time:
+---
 * 输入>Configure Display Language,配置为中文
 * 自动补全
 	* 写代码，自动生成代码，按Tab接受
