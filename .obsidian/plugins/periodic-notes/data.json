@@ -15,9 +15,9 @@
     "enabled": true
   },
   "monthly": {
-    "format": "月结gggg-MM",
+    "format": "",
     "template": "",
-    "folder": "📒月结",
+    "folder": "",
     "enabled": false
   },
   "quarterly": {
