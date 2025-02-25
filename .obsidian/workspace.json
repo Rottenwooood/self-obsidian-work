@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "7fb5090845243630",
+            "id": "a087d27fc2b4402a",
             "type": "leaf",
             "state": {
               "type": "thino_view",
@@ -45,22 +45,22 @@
             }
           },
           {
-            "id": "460288b02587b7eb",
+            "id": "15eb7dbd0989e1f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "资源.md",
+                "file": "竞赛&考试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "资源"
+              "title": "竞赛&考试"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +92,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tno",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,8 +113,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -139,7 +138,7 @@
             }
           },
           {
-            "id": "b423e97c27029b0b",
+            "id": "bc894ef61a0dec9b",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -250,12 +249,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "856db9e8e65372d1",
+  "active": "15eb7dbd0989e1f0",
   "lastOpenFiles": [
     "🧠算法/算法-目录.md",
+    "竞赛&考试.md",
+    "docs/折叠/attachment/lpytfpck.bmp",
+    "主页.canvas",
     "资源.md",
     "🧠算法/数据结构/链表/经典/001 删除元素.md",
-    "主页.canvas",
     "🧠算法/刷题.md",
     "📔日志/日志02-24.md",
     "英语学习.md",
@@ -279,8 +280,6 @@
     "🖥单片机/51附加.md",
     "🖥单片机/51.md",
     "🧠算法/算法模板.md",
-    "📓周结/周结2025-W08-02-17.md",
-    "📅代办库/技术趣事.md",
     "未命名 1.canvas",
     "📒月结",
     "docs/折叠/attachment/Pasted image 20250222224025.png",
@@ -302,7 +301,6 @@
     "docs/折叠/attachment/Pasted image 20250211115056.png",
     "docs/待整理/assets/logo.png",
     "venv/Lib/site-packages/material/templates/assets/images/favicon.png",
-    "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg",
-    "venv/Lib/site-packages/mkdocs/themes/mkdocs/img/grid.png"
+    "venv/Lib/site-packages/mkdocs/themes/readthedocs/css/fonts/fontawesome-webfont.svg"
   ]
 }
