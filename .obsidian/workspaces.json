@@ -259,16 +259,16 @@
         "type": "split",
         "children": [
           {
-            "id": "e3a5be7f5c3b1efc",
+            "id": "1fa7c5d5fa42f3db",
             "type": "tabs",
             "children": [
               {
-                "id": "a4d219ab7cf34e48",
+                "id": "212777429d343199",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/🧠算法/刷题.md",
+                    "file": "🧠算法/刷题.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -278,12 +278,12 @@
                 }
               },
               {
-                "id": "35cb491b07d4dccb",
+                "id": "31747435518c3da4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/🧠算法/专题/005数据结构.md",
+                    "file": "🧠算法/专题/005数据结构.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -293,12 +293,12 @@
                 }
               },
               {
-                "id": "ac6126e6f0d73a97",
+                "id": "ae55ecb7f881d785",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "docs/🧠算法/算法-目录.md",
+                    "file": "🧠算法/算法-目录.md",
                     "mode": "source",
                     "source": false,
                     "backlinks": false
@@ -306,25 +306,9 @@
                   "icon": "lucide-file",
                   "title": "算法-目录"
                 }
-              },
-              {
-                "id": "c14de65f1d085387",
-                "type": "leaf",
-                "state": {
-                  "type": "canvas",
-                  "state": {
-                    "file": "docs/🧠算法/算法.canvas",
-                    "viewState": {
-                      "x": 170.5409033078879,
-                      "y": -762.4149491094147,
-                      "zoom": -0.556664975453507
-                    }
-                  },
-                  "icon": "lucide-layout-dashboard",
-                  "title": "算法"
-                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -356,7 +340,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "数电",
                     "matchingCase": false,
                     "explainSearch": false,
                     "collapseAll": false,
@@ -377,7 +361,8 @@
                   "title": "书签"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -485,9 +470,19 @@
                   "icon": "lucide-file",
                   "title": "TODO"
                 }
+              },
+              {
+                "id": "c0980a8bc59961b9",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "新标签页"
+                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 5
           }
         ],
         "direction": "horizontal",
@@ -495,20 +490,21 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-memos:Thino": false,
           "homepage:Open homepage": false,
           "obsidian-git:Open Git source control": false,
-          "switcher:打开快速切换": false,
+          "switcher:打开快速切换": true,
           "graph:查看关系图谱": true,
           "canvas:新建白板": false,
           "templates:插入模板": true,
           "command-palette:打开命令面板": true,
           "obsidian-full-calendar:Open Full Calendar": false,
-          "periodic-notes:Open today": false,
-          "workspaces:管理工作区布局": false
+          "workspaces:管理工作区布局": false,
+          "periodic-notes:Open today": false
         }
       },
-      "active": "a4d219ab7cf34e48",
-      "mtime": "2025-02-19T22:15:59+08:00"
+      "active": "ae55ecb7f881d785",
+      "mtime": "2025-02-25T16:31:49+08:00"
     },
     "概率论": {
       "main": {
@@ -802,5 +798,5 @@
       "mtime": "2025-02-19T17:41:38+08:00"
     }
   },
-  "active": "默认"
+  "active": "算法"
 }

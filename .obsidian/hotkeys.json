@@ -14,5 +14,13 @@
       ],
       "key": "-"
     }
+  ],
+  "graph:open-local": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }

@@ -1,34 +1,29 @@
 {
   "items": [
     {
+      "type": "folder",
+      "ctime": 1740235903773,
+      "path": "📅代办库"
+    },
+    {
+      "type": "folder",
+      "ctime": 1738994206545,
+      "path": "📓周结"
+    },
+    {
       "type": "file",
       "ctime": 1738156900304,
       "path": "docs/工作流程.md"
     },
     {
-      "type": "folder",
-      "ctime": 1738994241512,
-      "path": "docs/🌟灵感"
-    },
-    {
       "type": "file",
       "ctime": 1738902338861,
-      "path": "docs/资源.md"
-    },
-    {
-      "type": "folder",
-      "ctime": 1738994210976,
-      "path": "docs/📔日志"
+      "path": "资源.md"
     },
     {
       "type": "folder",
       "ctime": 1739239606471,
-      "path": "docs/reference"
-    },
-    {
-      "type": "folder",
-      "ctime": 1738994206545,
-      "path": "docs/📓周结"
+      "path": "reference"
     },
     {
       "type": "group",
@@ -42,27 +37,27 @@
         {
           "type": "file",
           "ctime": 1738097349491,
-          "path": "docs/🧠算法/算法模板.md"
+          "path": "🧠算法/算法模板.md"
         },
         {
           "type": "file",
           "ctime": 1739263218356,
-          "path": "docs/🧠算法/算法-目录.md"
+          "path": "🧠算法/算法-目录.md"
         },
         {
           "type": "file",
           "ctime": 1738097345113,
-          "path": "docs/🧠算法/专题/004数学.md"
+          "path": "🧠算法/专题/004数学.md"
         },
         {
           "type": "file",
           "ctime": 1738097275041,
-          "path": "docs/🧠算法/刷题.md"
+          "path": "🧠算法/刷题.md"
         },
         {
           "type": "file",
           "ctime": 1739263207299,
-          "path": "docs/🧠算法/算法.canvas"
+          "path": "🧠算法/算法.canvas"
         }
       ],
       "title": "算法"
@@ -70,22 +65,22 @@
     {
       "type": "file",
       "ctime": 1739889249232,
-      "path": "docs/🌟灵感/目录-灵感.md"
+      "path": "🌟灵感/目录-灵感.md"
     },
     {
       "type": "file",
       "ctime": 1739889258510,
-      "path": "docs/目录/阅读清单.md"
-    },
-    {
-      "type": "file",
-      "ctime": 1739889266996,
-      "path": "docs/📔日志/日志02-18.md"
+      "path": "目录/阅读清单.md"
     },
     {
       "type": "file",
       "ctime": 1739891700756,
-      "path": "docs/🌟灵感/灵感.canvas"
+      "path": "🌟灵感/灵感.canvas"
+    },
+    {
+      "type": "folder",
+      "ctime": 1738994241512,
+      "path": "🌟灵感"
     }
   ]
 }

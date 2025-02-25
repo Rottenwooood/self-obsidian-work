@@ -1,9 +1,10 @@
 [
   "homepage",
   "dataview",
-  "periodic-notes",
   "calendar",
   "obsidian-minimal-settings",
   "obsidian-git",
-  "obsidian-full-calendar"
+  "periodic-notes",
+  "obsidian-full-calendar",
+  "obsidian-memos"
 ]

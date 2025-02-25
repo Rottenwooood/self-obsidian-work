@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"e25e49f4055faa5d","type":"text","text":"代办库.md\n紧急，不紧急","x":-125,"y":-30,"width":250,"height":60},
+		{"id":"b591ed2b7f2e8a9f","type":"text","text":".LOG\n阅读，页数，进度，类型\n系列视频，x/y，类型\nPROJECT，\n学科->一篇reference\nreference，跳转，时间，类型\n每周一个文件，每篇文章/视频打上标签，长期","x":-125,"y":560,"width":250,"height":240},
+		{"id":"35deeb4043760d71","type":"text","text":"2/21","x":-125,"y":310,"width":250,"height":60},
+		{"id":"6347aedca27d2be9","type":"text","text":"2/22","x":180,"y":310,"width":250,"height":60},
+		{"id":"80fe57d11cb8212e","type":"text","text":"代办","x":-125,"y":120,"width":250,"height":60},
+		{"id":"d7a617b059e205f4","type":"text","text":"资源","x":280,"y":650,"width":250,"height":60},
+		{"id":"96fe8f54293336b8","type":"text","text":".reference","x":-620,"y":650,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"9a5c9c5deb84d1f0","fromNode":"e25e49f4055faa5d","fromSide":"bottom","toNode":"80fe57d11cb8212e","toSide":"top"},
+		{"id":"bba3c1091b187d4e","fromNode":"80fe57d11cb8212e","fromSide":"bottom","toNode":"35deeb4043760d71","toSide":"top"},
+		{"id":"0859eb3216ae1dd9","fromNode":"80fe57d11cb8212e","fromSide":"bottom","toNode":"6347aedca27d2be9","toSide":"top"},
+		{"id":"9fc25099454d476d","fromNode":"35deeb4043760d71","fromSide":"bottom","toNode":"b591ed2b7f2e8a9f","toSide":"top"},
+		{"id":"3aa43cc2fb34a577","fromNode":"6347aedca27d2be9","fromSide":"bottom","toNode":"b591ed2b7f2e8a9f","toSide":"top"},
+		{"id":"8c0a6811de525994","fromNode":"b591ed2b7f2e8a9f","fromSide":"right","toNode":"d7a617b059e205f4","toSide":"left"},
+		{"id":"e6f0e16af49b65e6","fromNode":"b591ed2b7f2e8a9f","fromSide":"left","toNode":"96fe8f54293336b8","toSide":"right"}
+	]
+}
