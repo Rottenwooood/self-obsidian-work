@@ -25,16 +25,6 @@
             }
           },
           {
-            "id": "2d7a425bd1bc986f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
-          },
-          {
             "id": "00495e326551ed10",
             "type": "leaf",
             "state": {
@@ -45,32 +35,36 @@
             }
           },
           {
-            "id": "6240323a072994b0",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
-            "id": "0c43971684981dd0",
+            "id": "dc23403b208d0c55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference/英语学习.md",
+                "file": "📔日志/日志02-28.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "英语学习"
+              "title": "日志02-28"
+            }
+          },
+          {
+            "id": "6032250785d75696",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📔日志/日志03-02.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "日志03-02"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,12 +117,12 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -229,32 +223,22 @@
             }
           },
           {
-            "id": "6de479b0e046e7ce",
+            "id": "149faefb268e6509",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/折叠/TODO.md",
+                "file": "reference/近期.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "c0980a8bc59961b9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "近期"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -275,8 +259,18 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "00495e326551ed10",
+  "active": "8fd2a451db90e9b5",
   "lastOpenFiles": [
+    "reference/近期.md",
+    "📔日志/日志03-02.md",
+    "📔日志/日志03-01.md",
+    "📔日志/日志02-28.md",
+    "📔日志/日志02-27.md",
+    "📔日志/日志02-26.md",
+    "📔日志/日志02-25.md",
+    "📔日志/日志02-24.md",
+    "reference/英语学习.md",
+    "📔日志/日志02-17.md",
     "主页.canvas",
     "🧠算法/算法-目录.md",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
@@ -297,17 +291,8 @@
     "reference/ai的建议.md",
     "reference/知乎er.md",
     "reference/怎么能让书里的信息成为自己的知识呢.md",
-    "reference/英语学习.md",
     "reference/学物理真能去二次元吗目録知乎.md",
     "reference/学物理真能去二次元吗  -  大致加点方案.md",
-    "reference/如何读书.md",
-    "reference/小镇做题家”如何自学（数学及自然科学）.md",
-    "reference/毛选.md",
-    "reference/佬の周结.md",
-    "reference/具身智能学习路线.md",
-    "reference/结构化思维.md",
-    "reference/动手学深度学习.md",
-    "reference/2.19 滑动窗口.md",
     "🧠算法/算法.canvas",
     "未命名 1.canvas",
     "📒月结",
