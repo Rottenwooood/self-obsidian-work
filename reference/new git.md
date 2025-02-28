@@ -1,3 +1,9 @@
+---
+tags:
+  - 笔记
+  - 参考
+time:
+---
 ## 参考
 [为什么Git的教程都那么繁杂？ - 知乎](https://www.zhihu.com/question/594294987/answer/90657535810)
 ## 使用
