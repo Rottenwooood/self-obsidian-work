@@ -915,7 +915,7 @@ int main(void){
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241207210014859.png" alt="image-20241207210014859" style="zoom:80%;" />
 
-```
+```c
 //Encoder.c
 #include "stm32f10x.h"                  // Device header
 
@@ -972,7 +972,7 @@ void EXTI0_IRQHandler(void){
 		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0){
 			Encoder_Count--;
 		}
-		EXTI_ClearITPendingBit(EXTI_Line0);
+		EXTI_ClearITPendingBit(EXTI_Line0);//清零
 	}
 }
 
@@ -981,23 +981,19 @@ void EXTI1_IRQHandler(void){
 		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_0)==0){
 			Encoder_Count++;
 		}
-		EXTI_ClearITPendingBit(EXTI_Line1);
+		EXTI_ClearITPendingBit(EXTI_Line1);//清零
 	}
 }
 
 ```
 
-```
+```c
 //main.c
 #include "stm32f10x.h"                  // Device header
-#include "Delay.h"
-#include "LED.h"
-#include "Key.h"
 #include "OLED.h"
 #include "Encoder.h"
 
 int16_t Num;
-uint8_t KeyNum;
 int main(void){
 	OLED_Init();
 	Encoder_Init();
