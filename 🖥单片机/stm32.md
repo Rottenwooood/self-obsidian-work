@@ -10,23 +10,23 @@
 
 **片上资源/外设**
 
-| NVIC                             | 嵌套向量中断控制器 | CAN     | CAN通信            |
-| -------------------------------- | ------------------ | ------- | ------------------ |
-| SysTick                          | 系统滴答定时器     | USB     | USB通信            |
-| RCC（Reset Clock control）       | 复位和时钟控制     | RTC     | 实时时钟           |
-| GPIO（General Purposed IO port） | 通用IO口           | CRC     | CRC校验            |
-| AFIO（）                         | 复用IO口           | PWR     | 电源控制           |
-| EXTI（EXTernal Interrupt）       | 外部中断           | BKP     | 备份寄存器         |
-| TIM（Timer）                     | 定时器             | IWDG    | 独立看门狗         |
-| ADC                              | 模数转换器         | WWDG    | 窗口看门狗         |
-| DMA                              | 直接内存访问       | DAC     | 数模转换器         |
-| USART                            | 同步/异步串口通信  | SDIO    | SD卡接口           |
-| I2C                              | I2C通信            | FSMC    | 可变静态存储控制器 |
-| SPI                              | SPI通信            | USB OTG | USB主机接口        |
+| NVIC                           | 嵌套向量中断控制器 | CAN     | CAN通信     |
+| ------------------------------ | --------- | ------- | --------- |
+| SysTick                        | 系统滴答定时器   | USB     | USB通信     |
+| RCC（Reset Clock control）       | 复位和时钟控制   | RTC     | 实时时钟      |
+| GPIO（General Purposed IO port） | 通用IO口     | CRC     | CRC校验     |
+| AFIO（）                         | 复用IO口     | PWR     | 电源控制      |
+| EXTI（EXTernal Interrupt）       | 外部中断      | BKP     | 备份寄存器     |
+| TIM（Timer）                     | 定时器       | IWDG    | 独立看门狗     |
+| ADC                            | 模数转换器     | WWDG    | 窗口看门狗     |
+| DMA                            | 直接内存访问    | DAC     | 数模转换器     |
+| USART                          | 同步/异步串口通信 | SDIO    | SD卡接口     |
+| I2C                            | I2C通信     | FSMC    | 可变静态存储控制器 |
+| SPI                            | SPI通信     | USB OTG | USB主机接口   |
 
 ### 命名规则
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241121140002759.png" alt="image-20241121140002759" style="zoom:67%;" />
+![image-20241121140002759](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241121140002759.png)
 
 ### 系统结构
 
@@ -119,8 +119,8 @@ void GPIO_AFIODeInit(void);//复位AFIO
 void GPIO_Init(GPIO_TypeDef* GPIOx, GPIO_InitTypeDef* GPIO_InitStruct);//用结构体初始化GPIO口
 void GPIO_StructInit(GPIO_InitTypeDef* GPIO_InitStruct);//给结构体变量赋初始值
 //GPIO读取函数*4
-uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);
-uint16_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx);
+uint8_t GPIO_ReadInputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);//按位
+uint16_t GPIO_ReadInputData(GPIO_TypeDef* GPIOx);//按zi
 uint8_t GPIO_ReadOutputDataBit(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin);//读取自己输出的数据
 uint16_t GPIO_ReadOutputData(GPIO_TypeDef* GPIOx);
 //GPIO写入函数*4
