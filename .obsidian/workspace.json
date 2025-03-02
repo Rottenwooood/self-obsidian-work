@@ -43,22 +43,52 @@
             }
           },
           {
-            "id": "856cabdc7468547e",
+            "id": "520fa61d4450cd25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠算法/专题/004数学.md",
+                "file": "🧠算法/刷题.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "004数学"
+              "title": "刷题"
+            }
+          },
+          {
+            "id": "7a360a92ebe2e6f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🧠算法/模板/002搜索模板.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "002搜索模板"
+            }
+          },
+          {
+            "id": "d7652f9fc9001c6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "竞赛&考试.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "竞赛&考试"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -90,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "公约数",
+                "query": "竞赛",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -249,27 +279,30 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "856cabdc7468547e",
+  "active": "2db105efd4e4da74",
   "lastOpenFiles": [
+    "竞赛&考试.md",
+    "目录/2025规划.md",
+    "待整理/知识库/其他/路线参考/4.md",
     "🧠算法/刷题.md",
+    "🧠算法/模板/002搜索模板.md",
+    "🧠算法/专题/002搜索.md",
+    "🖥单片机/stm32.md",
     "reference/近期.md",
-    "🧠算法/算法模板.md",
     "🧠算法/专题/004数学.md",
+    "📔日志/日志03-02.md",
+    "🧠算法/算法模板.md",
     "资源.md",
     "reference/招新.md",
     "🌟灵感/灵感-bilibili.md",
     "reference/自学方法.md",
     "reference/anki使用方法.md",
     "reference/ai学习路径.md",
-    "竞赛&考试.md",
-    "🖥单片机/stm32.md",
     "📔日志/日志02-28.md",
     "📔日志/日志02-26.md",
-    "📔日志/日志03-02.md",
     "主页.canvas",
     "📔日志/日志03-01.md",
     "📔日志/日志02-27.md",
@@ -283,10 +316,6 @@
     "docs/折叠/attachment/Pasted image 20250222224025.png",
     "docs/折叠/attachment/lpytfpck.bmp",
     "docs/折叠/attachment/入坑具身智能？把这几节课学了就够了！_2_许华哲Harry_来自小红书网页版.jpg",
-    "reference/TNO.md",
-    "reference/scanf函数.md",
-    "reference/PROJECT.md",
-    "reference/obsidian.md",
     "🧠算法/算法.canvas",
     "未命名 1.canvas",
     "📒月结",

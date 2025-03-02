@@ -141,10 +141,10 @@ typedef enum
   GPIO_Mode_IN_FLOATING = 0x04,//浮空输入
   GPIO_Mode_IPD = 0x28,//下拉输入
   GPIO_Mode_IPU = 0x48,//上拉输入
-  GPIO_Mode_Out_OD = 0x14,//开口输出
-  GPIO_Mode_Out_PP = 0x10,//推挽输出
-  GPIO_Mode_AF_OD = 0x1C,//复用开漏
-  GPIO_Mode_AF_PP = 0x18//复用推挽
+  GPIO_Mode_Out_OD = 0x14,//开漏输出，使用N_MOS，无驱动能力，依靠外部电压源驱动，一般功率器件用开漏
+  GPIO_Mode_Out_PP = 0x10,//推挽输出，使用N_MOS和P_MOS，后者有驱动能力，驱动能力受到芯片性能限制，一般信号线用推挽
+  GPIO_Mode_AF_OD = 0x1C,//复用开漏，同，但来自片上外设
+  GPIO_Mode_AF_PP = 0x18//复用推挽，同，但来自片上外设
 }GPIOMode_TypeDef;
 ```
 
@@ -180,6 +180,8 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 
 ### GPIO
 
+[参考视频](https://www.bilibili.com/video/BV1zG4y1K78S)
+
 #### 简介
 
 - GPIO（General Purpose Input Output）通用输入输出口
@@ -196,6 +198,8 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 
 - 寄存器仅低十六位有端口
 - 驱动器用于增大驱动能力，如用于点灯
+
+![image-20250302133834825](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250302133834825.png)
 
 #### 位结构
 
