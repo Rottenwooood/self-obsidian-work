@@ -41,9 +41,19 @@
               "icon": "Memos",
               "title": "Thino"
             }
+          },
+          {
+            "id": "d4cb41989d7bc066",
+            "type": "leaf",
+            "state": {
+              "type": "full-calendar-view",
+              "state": {},
+              "icon": "calendar-glyph",
+              "title": "Calendar"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -237,8 +247,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b82c47c50f493cf7",
+  "active": "d4cb41989d7bc066",
   "lastOpenFiles": [
+    "📔日志/日志1.19.md",
     "🖥单片机/51附加.md",
     "reference/时间安排.md",
     "reference/近期.md",
@@ -264,7 +275,6 @@
     "🧠算法/专题/002搜索.md",
     "🧠算法/专题/004数学.md",
     "📔日志/日志03-02.md",
-    "资源.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
