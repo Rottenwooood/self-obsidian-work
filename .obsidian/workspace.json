@@ -23,13 +23,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference/时间安排.md",
+                "file": "🌟灵感/灵感-知乎.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "时间安排"
+              "title": "灵感-知乎"
             }
           },
           {
@@ -43,31 +43,22 @@
             }
           },
           {
-            "id": "d4cb41989d7bc066",
+            "id": "5c1474b9a838af8f",
             "type": "leaf",
             "state": {
-              "type": "full-calendar-view",
-              "state": {},
-              "icon": "calendar-glyph",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "acc141a287432c80",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "reference/时间安排.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "时间安排"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -99,7 +90,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "副业",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -261,14 +252,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "acc141a287432c80",
+  "active": "5c1474b9a838af8f",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
+    "🌟灵感/灵感-知乎.md",
+    "🧠算法/算法模板.md",
+    "reference/时间安排.md",
+    "目录/高数下.md",
     "reference/近期.md",
+    "conflict-files-obsidian-git.md",
     "📔日志/日志1.19.md",
     "🖥单片机/51附加.md",
-    "reference/时间安排.md",
-    "🧠算法/算法模板.md",
     "reference/嵌入式之路.md",
     "reference/ROS学习路线.md",
     "竞赛&考试.md",
@@ -287,8 +280,6 @@
     "🖥单片机/stm32.md",
     "目录/2025规划.md",
     "待整理/知识库/其他/路线参考/4.md",
-    "🧠算法/专题/002搜索.md",
-    "🧠算法/专题/004数学.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
