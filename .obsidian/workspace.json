@@ -51,9 +51,23 @@
               "icon": "calendar-glyph",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "acc141a287432c80",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: workspace.json"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -247,12 +261,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d4cb41989d7bc066",
+  "active": "acc141a287432c80",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "reference/近期.md",
     "📔日志/日志1.19.md",
     "🖥单片机/51附加.md",
     "reference/时间安排.md",
-    "reference/近期.md",
     "🧠算法/算法模板.md",
     "reference/嵌入式之路.md",
     "reference/ROS学习路线.md",
@@ -274,7 +289,6 @@
     "待整理/知识库/其他/路线参考/4.md",
     "🧠算法/专题/002搜索.md",
     "🧠算法/专题/004数学.md",
-    "📔日志/日志03-02.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
