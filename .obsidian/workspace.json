@@ -76,15 +76,14 @@
             "id": "369e7560f41daeb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "🧠算法/刷题.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "刷题"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ],
@@ -205,13 +204,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠算法/刷题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "刷题 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -291,12 +289,19 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "369e7560f41daeb2",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "🧠算法/刷题.md",
+    "reference/时间安排.md",
+    "reference/招新.md",
+    "reference/我是如何在本科期间发表顶会论文的？（内含开源代码和数据集） - 知乎.md",
+    "reference/嵌入式之路.md",
+    "reference/ROS学习路线.md",
     "📔日志/日志03-01.md",
     "📔日志/日志03-02.md",
     "📔日志/日志02-28.md",
@@ -310,7 +315,6 @@
     "📓周结/周结2025-W08-02-17.md",
     "🖥单片机/stm32.md",
     "主页.canvas",
-    "conflict-files-obsidian-git.md",
     "reference/近期.md",
     "reference/自学方法.md",
     "reference/anki使用方法.md",
@@ -319,13 +323,8 @@
     "🧠算法/算法.canvas",
     "竞赛&考试.md",
     "reference/具身智能学习路线.md",
-    "reference/佬の周结.md",
     "docs/折叠/attachment/lpytfpck.bmp",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
-    "reference/PROJECT.md",
-    "资源.md",
-    "未命名.md",
-    "🧠算法/数据结构/链表/经典/006 链表相交.md",
     "🧠算法/数据结构/链表/经典",
     "🧠算法/数据结构/数组/经典",
     "🧠算法/数据结构/链表",

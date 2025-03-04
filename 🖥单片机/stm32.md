@@ -141,10 +141,10 @@ typedef enum
   GPIO_Mode_IN_FLOATING = 0x04,//浮空输入
   GPIO_Mode_IPD = 0x28,//下拉输入
   GPIO_Mode_IPU = 0x48,//上拉输入
-  GPIO_Mode_Out_OD = 0x14,//开口输出
-  GPIO_Mode_Out_PP = 0x10,//推挽输出
-  GPIO_Mode_AF_OD = 0x1C,//复用开漏
-  GPIO_Mode_AF_PP = 0x18//复用推挽
+  GPIO_Mode_Out_OD = 0x14,//开漏输出，使用N_MOS，无驱动能力，依靠外部电压源驱动，一般功率器件用开漏
+  GPIO_Mode_Out_PP = 0x10,//推挽输出，使用N_MOS和P_MOS，后者有驱动能力，驱动能力受到芯片性能限制，一般信号线用推挽
+  GPIO_Mode_AF_OD = 0x1C,//复用开漏，同，但来自片上外设
+  GPIO_Mode_AF_PP = 0x18//复用推挽，同，但来自片上外设
 }GPIOMode_TypeDef;
 ```
 
@@ -180,6 +180,8 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 
 ### GPIO
 
+[参考视频](https://www.bilibili.com/video/BV1zG4y1K78S)
+
 #### 简介
 
 - GPIO（General Purpose Input Output）通用输入输出口
@@ -196,6 +198,8 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 
 - 寄存器仅低十六位有端口
 - 驱动器用于增大驱动能力，如用于点灯
+
+![image-20250302133834825](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250302133834825.png)
 
 #### 位结构
 
@@ -232,7 +236,7 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 
 第一种方式是**先读出**这个寄存器，然后用**按位与和按位或**的方式更改某一位最后再将更改后的数据**写回去**在c语言中就是余等于和或等于的操作
 
-第二种方式设置位设置，位清除寄存器。
+第二种方式设置位设置寄存器，位清除寄存器。
 
 - 向需要置一的位对应的位设置寄存器的对应位写1，不需要更改的写0；
 - 向需要置零的位对应的位清除寄存器的对应位写1，不需要更改的写0；
@@ -240,7 +244,7 @@ void SysTick_CLKSourceConfig(uint32_t SysTick_CLKSource);
 第三种方式，位带
 
 读写STM32中的位带区域
-这个位带的作用就跟51单片机的位寻址作用差不多哈
+这个位带的作用就跟51单片机的位寻址作用差不多
 在STM32中，专门分配的有一段地址区域，这段地址映射了RAM和外设寄存器所有的位
 读写这段地址中的数据就相当于读写所映射位置的某一位
 
@@ -289,7 +293,9 @@ LED：
 
 LED：发光二极管，正向通电点亮，反向通电不亮。长接线柱为正极，内部较小的一边为正极
 
-有源蜂鸣器：内部自带振荡源，将正负极接上直流电压即可持续发声，频率固定无源蜂鸣器：内部不带振荡源，需要控制器提供振荡脉冲才可发声，调整提供振荡脉冲的频率，可发出不同频率的声音
+有源蜂鸣器：内部自带振荡源，将正负极接上直流电压即可持续发声，频率固定
+
+无源蜂鸣器：内部不带振荡源，需要控制器提供振荡脉冲才可发声，调整提供振荡脉冲的频率，可发出不同频率的声音
 
 #### 两种电路
 
@@ -301,8 +307,10 @@ LED：发光二极管，正向通电点亮，反向通电不亮。长接线柱�
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241124223308150.png" alt="image-20241124223308150" style="zoom:67%;" />
 
-前一种，使用PNP三极管引脚为低电平导通，高电平截至，
-后一种使用NPN三极管，操作逻辑相反
+前一种，使用PNP三极管引脚为低电平导通，高电平截止，
+后一种，使用NPN三极管，操作逻辑相反
+
+这种一般单片机无法输出足够功率，因此选择使用单片机io口作为开关
 
 ### 面包板
 
@@ -318,9 +326,9 @@ rcc.h主要使用这三个函数
 
 ```c++
 //rcc.h
-692 void RCC_AHBPeriphClockCmd(uint32_t RCC_AHBPeriph, FunctionalState NewState);
-693 void RCC_APB2PeriphClockCmd(uint32_t RCC_APB2Periph, FunctionalState NewState);
-694 void RCC_APB1PeriphClockCmd(uint32_t RCC_APB1Periph, FunctionalState NewState);
+692 void RCC_AHBPeriphClockCmd(uint32_t RCC_AHBPeriph, FunctionalState NewState);//使能AHB
+693 void RCC_APB2PeriphClockCmd(uint32_t RCC_APB2Periph, FunctionalState NewState);//使能APB1
+694 void RCC_APB1PeriphClockCmd(uint32_t RCC_APB1Periph, FunctionalState NewState);//使能APB2
 ```
 
 gpio.h
@@ -402,10 +410,11 @@ int main(void){
 #include "Delay.h"
 
 int main(void){
+    //使能APB2总线
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA,ENABLE);
-	
+	//配置结构体
 	GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_Out_PP;
+	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_Out_PP;//推挽
 	GPIO_InitStructure.GPIO_Pin=GPIO_Pin_All;
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
 	GPIO_Init(GPIOA,&GPIO_InitStructure);
@@ -414,6 +423,7 @@ int main(void){
 	
 	
 	while(1){
+        //实际上进行了取反操作
 		GPIO_Write(GPIOA,~0x0001);//0000 0000 0000 0001
 		Delay_ms(500);
 		GPIO_Write(GPIOA,~0x0002);//0000 0000 0000 0010
@@ -449,7 +459,7 @@ int main(void){
 
 传感器元件（光敏电阻/热敏电阻/红外接收管等）的电阻N1会随外界模拟量的变化而变化，通过与定值电阻分压即可得到模拟电压输出，再通过电压比较器进行二值化即可得到数字电压输出
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128133108941.png" alt="image-20241128133108941" style="zoom:67%;" /><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128133115644.png" alt="image-20241128133115644" style="zoom:67%;" />
+![image-20241128133108941](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128133108941.png)![image-20241128133115644](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128133115644.png)
 
 2.IN-一端接电位器，另一端接LM393。拧动电位器，IN-就会生成一个可调的阈值电压
 
@@ -591,7 +601,7 @@ void LED2_Turn(void){
 		GPIO_ResetBits(GPIOA,GPIO_Pin_2);
 	}
 }
-
+/*
 void LED1_On(void){
 	GPIO_ResetBits(GPIOA,GPIO_Pin_1);//设为低电平，点亮
 }
@@ -607,6 +617,7 @@ void LED2_On(void){
 void LED2_Off(void){
 	GPIO_SetBits(GPIOA,GPIO_Pin_2);//设为高电平，熄灭
 }
+*/
 
 ```
 
@@ -707,7 +718,7 @@ uint8_t LightSensor_Get(void){
 
 ```
 
-### OLED调试工具
+### 007 OLED调试工具
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128175119964.png" alt="image-20241128175119964" style="zoom:67%;" />
 
@@ -735,7 +746,7 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 
 
 
-![image-20241128174902851](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128174902851.png)<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128174852804.png" alt="image-20241128174852804" style="zoom:67%;" />
+![image-20241128174902851](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128174902851.png)![image-20241128174852804](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241128174852804.png)
 
 | **函数**                              | **作用**             |
 | ------------------------------------- | -------------------- |
@@ -764,17 +775,23 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 - 使用NVIC统一管理中断，每个中断通道都拥有16个可编程的优先等级，可对优先级进行分组，进一步设置抢占优先级和响应优先级
 - 中断向量表：存储不固定的中断函数地址的列表
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205225753118.png" alt="image-20241205225753118" style="zoom:67%;" />
+![image-20241205225753118](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205225753118.png)
 
-![image-20241205232200818](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232200818.png)![image-20241205232206985](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232206985.png)![image-20241205232216042](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232216042.png)![image-20241205232355214](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232355214.png)
+![image-20241205232200818](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232200818.png)
+
+![image-20241205232206985](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232206985.png)
+
+![image-20241205232216042](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232216042.png)
+
+![image-20241205232355214](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205232355214.png)
 
 
 
-### NVIC
+### NVIC（Nested Vectored Interrupt Controller）
 
 嵌套中断向量控制器，一个内核外设，用于接替CPU完成统一分配中断和管理中断的任务。
 
-<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205231753164.png" alt="image-20241205231753164" style="zoom:67%;" />
+![image-20241205231753164](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241205231753164.png)
 
 **优先级分组**
 
@@ -797,7 +814,7 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 
 - EXTI可以监测指定GPIO口的电平信号，当其指定的GPIO口产生电平变化时，EXTI将立即向NVIC发出中断申请，经过NVIC裁决后即可中断CPU主程序，使CPU执行EXTI对应的中断程序
 - 支持的触发方式：上升沿/下降沿/双边沿/软件触发
-- 支持的GPIO口：所有GPIO口，但相同的Pin不能同时触发中断(同一个Pin只有一个中断)
+- 支持的GPIO口：所有GPIO口，但**相同的Pin不能同时触发中断**(同一个Pin只有一个中断)
 - 通道数：16个GPIO_Pin，外加PVD输出、RTC闹钟、USB唤醒、以太网唤醒（从低功耗模式的停止模式下唤醒STM32）
   - 对于PVD电源电压监测，当从电源从电压过低恢复时，就需要PVD借助一下外部中断退出停止模式
     - PVD可以用来做省电模式，电量过低就进入低功耗，充上来了就退出
@@ -810,9 +827,9 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 ### AFIO复用IO口
 
 - AFIO主要用于引脚复用功能的选择和重定义
-- 在STM32中，AFIO主要完成两个任务：复用功能引脚重映射、中断引脚选择
+- 在STM32中，AFIO主要完成两个任务：**复用功能引脚重映射、中断引脚选择**
   - 复用功能引脚重映射：![image-20241206001052342](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206001052342.png)
-  - 中断引脚选择：<img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206001210664.png" alt="image-20241206001210664" style="zoom:67%;" />
+  - 中断引脚选择：![image-20241206001210664](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206001210664.png)
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206000836050.png" alt="image-20241206000836050" style="zoom:80%;" />
 
@@ -835,7 +852,9 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206153705499.png" alt="image-20241206153705499" style="zoom:67%;" /><img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241206153710885.png" alt="image-20241206153710885" style="zoom:67%;" />
 
-###  对射式红外传感器计次
+###  008 对射式红外传感器计次
+
+使用中断而非主循环
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241207182504507.png" alt="image-20241207182504507" style="zoom:67%;" />
 
@@ -845,33 +864,41 @@ OLED显示屏：性能优异的新型显示屏，具有功耗低、相应速度�
 
 uint16_t CountSensor_Count;
 void CountSensor_Init(void){
+    
 	//打开GPIOB和AFIO两个外设时钟
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOB,ENABLE);
-	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO,ENABLE);
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO,ENABLE);//**
 	//EXTI和NVIC外设的时钟无需打开
+    
 	//GPIO模式设置
 	GPIO_InitTypeDef GPIO_InitStructure;
-	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_IPU;
+	GPIO_InitStructure.GPIO_Mode=GPIO_Mode_IPU;//上拉
 	GPIO_InitStructure.GPIO_Pin=GPIO_Pin_14;
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
+    
 	GPIO_Init(GPIOB,&GPIO_InitStructure);
-	//配置AFIO
+    
+	//**配置AFIO
 	GPIO_EXTILineConfig(GPIO_PortSourceGPIOB,GPIO_PinSource14);
-	//配置EXTI
+    
+	//**配置EXTI
 	EXTI_InitTypeDef EXTI_InitStructure;
 	EXTI_InitStructure.EXTI_Line=EXTI_Line14;
 	EXTI_InitStructure.EXTI_LineCmd=ENABLE;
 	EXTI_InitStructure.EXTI_Mode=EXTI_Mode_Interrupt;
-	//EXTI_InitStructure.EXTI_Trigger=EXTI_Trigger_Falling;//移开挡光片时触发
+	//**EXTI_InitStructure.EXTI_Trigger=EXTI_Trigger_Falling;//移开挡光片时触发
 	EXTI_InitStructure.EXTI_Trigger=EXTI_Trigger_Rising;//放下挡光片时触发
+    
 	EXTI_Init(&EXTI_InitStructure);
-	//配置NVIC
-	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+    
+	//**配置NVIC
+	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);//分组2，四个优先级0-3
 	NVIC_InitTypeDef NVIC_InitStructure;
 	NVIC_InitStructure.NVIC_IRQChannel=EXTI15_10_IRQn;
 	NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
 	NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=1;
 	NVIC_InitStructure.NVIC_IRQChannelSubPriority=1;
+    
 	NVIC_Init(&NVIC_InitStructure);
 }
 
@@ -881,7 +908,7 @@ uint16_t CountSensor_Get(void){
 void EXTI15_10_IRQHandler(void){
 	if(EXTI_GetITStatus(EXTI_Line14)==SET){
 		CountSensor_Count++;
-		EXTI_ClearITPendingBit(EXTI_Line14);
+		EXTI_ClearITPendingBit(EXTI_Line14);//清零
 	}
 }
 
@@ -890,9 +917,6 @@ void EXTI15_10_IRQHandler(void){
 ```C++
 //main.c
 #include "stm32f10x.h"                  // Device header
-#include "Delay.h"
-#include "LED.h"
-#include "Key.h"
 #include "OLED.h"
 #include "CountSensor.h"
 
@@ -911,7 +935,7 @@ int main(void){
 
 ```
 
-### 旋转编码器计次
+### 009 旋转编码器计次
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241207210014859.png" alt="image-20241207210014859" style="zoom:80%;" />
 
@@ -1121,3 +1145,72 @@ STM3 的通用TIMx（TIM2、TIM3、TIM4 和 TIM5）定时器功能特点包括�
 ### TIM编码器接口
 
 更方便的读取正交编码器的输出波形
+
+### 010 定时器中断控制LED闪烁
+
+![image-20250228174803678](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20250228174803678.png)
+
+```c
+	//1.RCC开启时钟
+	//2.选择时基单元的时钟源
+	void TIM_InternalClockConfig(TIM_TypeDef* TIMx);//配置内部时钟作为时钟源
+	void TIM_ITRxExternalClockConfig(TIM_TypeDef* TIMx, uint16_t TIM_InputTriggerSource);//配置其他定时器
+	void TIM_TIxExternalClockConfig(TIM_TypeDef* TIMx, uint16_t TIM_TIxExternalCLKSource,//配置捕获通道
+                                uint16_t TIM_ICPolarity, uint16_t ICFilter);
+	void TIM_ETRClockMode1Config(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, uint16_t TIM_ExtTRGPolarity,uint16_t ExtTRGFilter);//配置外部时钟模式1
+	void TIM_ETRClockMode2Config(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, 
+                             uint16_t TIM_ExtTRGPolarity, uint16_t ExtTRGFilter);//配置外部时钟模式2
+	void TIM_ETRConfig(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, uint16_t TIM_ExtTRGPolarity,
+                   uint16_t ExtTRGFilter);//配置外部时钟
+	//3.配置时基单元：预分频器PSC，计数器CNT，自动重装器ARR
+	void TIM_TimeBaseInit(TIM_TypeDef* TIMx, TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct);
+	void TIM_TimeBaseStructInit(TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct);
+	//4.配置中断输出控制
+	void TIM_ITConfig(TIM_TypeDef* TIMx, uint16_t TIM_IT, FunctionalState NewState);
+	//5.配置NVIC，打开通道，分配优先级
+	NVIC_Init函数
+	//6.使能计数器
+	void TIM_Cmd(TIM_TypeDef* TIMx, FunctionalState NewState);
+```
+
+
+
+```c
+//...tim.h
+void TIM_DeInit(TIM_TypeDef* TIMx);//恢复缺省配置
+void TIM_TimeBaseInit(TIM_TypeDef* TIMx, TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct);//3.时基单元初始化
+
+void TIM_TimeBaseStructInit(TIM_TimeBaseInitTypeDef* TIM_TimeBaseInitStruct);//3.时基单元初始化结构初始化
+
+void TIM_Cmd(TIM_TypeDef* TIMx, FunctionalState NewState);//6.使能计数器
+
+void TIM_ITConfig(TIM_TypeDef* TIMx, uint16_t TIM_IT, FunctionalState NewState);//4.配置中断输出控制
+
+void TIM_InternalClockConfig(TIM_TypeDef* TIMx);//2.配置内部时钟作为时钟源
+void TIM_ITRxExternalClockConfig(TIM_TypeDef* TIMx, uint16_t TIM_InputTriggerSource);//2.配置其他定时器
+void TIM_TIxExternalClockConfig(TIM_TypeDef* TIMx, uint16_t TIM_TIxExternalCLKSource,
+                                uint16_t TIM_ICPolarity, uint16_t ICFilter);//2.//配置捕获通道
+void TIM_ETRClockMode1Config(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, uint16_t TIM_ExtTRGPolarity,
+                             uint16_t ExtTRGFilter);//2.配置外部时钟模式1
+void TIM_ETRClockMode2Config(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, 
+                             uint16_t TIM_ExtTRGPolarity, uint16_t ExtTRGFilter);//2.配置外部时钟模式2
+void TIM_ETRConfig(TIM_TypeDef* TIMx, uint16_t TIM_ExtTRGPrescaler, uint16_t TIM_ExtTRGPolarity,
+                   uint16_t ExtTRGFilter);//2.单独配置ETR引脚的预分频器，极性，滤波器等
+
+void TIM_PrescalerConfig(TIM_TypeDef* TIMx, uint16_t Prescaler, uint16_t TIM_PSCReloadMode);//单独配置PSC
+void TIM_CounterModeConfig(TIM_TypeDef* TIMx, uint16_t TIM_CounterMode);//单独配置CNT
+
+void TIM_ARRPreloadConfig(TIM_TypeDef* TIMx, FunctionalState NewState);//单独配置ARR
+
+void TIM_SetCounter(TIM_TypeDef* TIMx, uint16_t Counter);//手动设置计数器的值
+void TIM_SetAutoreload(TIM_TypeDef* TIMx, uint16_t Autoreload);//手动设置自动重装值
+
+uint16_t TIM_GetCounter(TIM_TypeDef* TIMx);//获取当前计数器的值
+uint16_t TIM_GetPrescaler(TIM_TypeDef* TIMx);//获取当前PSC的值
+//获取标志位和清除标志位
+FlagStatus TIM_GetFlagStatus(TIM_TypeDef* TIMx, uint16_t TIM_FLAG);
+void TIM_ClearFlag(TIM_TypeDef* TIMx, uint16_t TIM_FLAG);
+ITStatus TIM_GetITStatus(TIM_TypeDef* TIMx, uint16_t TIM_IT);
+void TIM_ClearITPendingBit(TIM_TypeDef* TIMx, uint16_t TIM_IT);
+```
+
