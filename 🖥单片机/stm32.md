@@ -939,7 +939,7 @@ int main(void){
 
 <img src="C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20241207210014859.png" alt="image-20241207210014859" style="zoom:80%;" />
 
-```
+```c
 //Encoder.c
 #include "stm32f10x.h"                  // Device header
 
@@ -996,7 +996,7 @@ void EXTI0_IRQHandler(void){
 		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_1)==0){
 			Encoder_Count--;
 		}
-		EXTI_ClearITPendingBit(EXTI_Line0);
+		EXTI_ClearITPendingBit(EXTI_Line0);//清零
 	}
 }
 
@@ -1005,23 +1005,19 @@ void EXTI1_IRQHandler(void){
 		if(GPIO_ReadInputDataBit(GPIOB,GPIO_Pin_0)==0){
 			Encoder_Count++;
 		}
-		EXTI_ClearITPendingBit(EXTI_Line1);
+		EXTI_ClearITPendingBit(EXTI_Line1);//清零
 	}
 }
 
 ```
 
-```
+```c
 //main.c
 #include "stm32f10x.h"                  // Device header
-#include "Delay.h"
-#include "LED.h"
-#include "Key.h"
 #include "OLED.h"
 #include "Encoder.h"
 
 int16_t Num;
-uint8_t KeyNum;
 int main(void){
 	OLED_Init();
 	Encoder_Init();
@@ -1045,9 +1041,9 @@ int main(void){
 
 - 定时器可以对输入的时钟进行计数，并在计数值达到设定值时触发中断
 - 16位计数器、预分频器、自动重装寄存器的时基单元，在72MHz计数时钟下可以实现最大59.65s的定时
-  - 级联：两个计时器连在一块，一个计时器的输出用作另一个计时器的输入
+- 级联：两个计时器连在一块，一个计时器的输出用作另一个计时器的输入，可指数级扩大定时范围
 - 不仅具备基本的定时中断功能，而且还包含内外时钟源选择、输入捕获、输出比较、编码器接口、主从触发模式等多种功能
-- 根据复杂度和应用场景分为了高级定时器、通用定时器、基本定时器三种类型
+- 根据复杂度和应用场景分为了**高级**定时器、**通用**定时器、**基本**定时器三种类型
 
 外部时钟：提供一个更加精准的时钟来计时
 
@@ -1069,7 +1065,7 @@ STM32F103C8T6定时器资源：TIM1、TIM2、TIM3、TIM4
 
 只能选择内部时钟，72MHZ
 
-预分配器：16位，分频系数=值+1，用于对输入的基准频率提前分频
+预分频器：16位，分频系数=值+1，用于对输入的基准频率提前分频
 
 CNT计数器：对分频后计数时钟进行计数，16位，每一上升沿其值+1
 
@@ -1079,7 +1075,7 @@ CNT计数器：对分频后计数时钟进行计数，16位，每一上升沿其
 
 向下箭头：代表产生事件（更新事件），不会触发中断，但会触发内部其他电路的工作
 
-工作流程：基准时钟->预分配器->计数器->不断与重装寄存器比较->值相等时，产生中断事件->CPU响应中断
+工作流程：基准时钟->预分频器->计数器->不断与重装寄存器比较->值相等时，产生中断事件->CPU响应中断
 
 主模式触发DAC：使内部硬件在不受程序的控制下实现自动运行
 
