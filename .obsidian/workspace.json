@@ -76,9 +76,19 @@
               "icon": "lucide-file",
               "title": "电赛"
             }
+          },
+          {
+            "id": "fe3a24a7480e235e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -165,7 +175,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ac7f66e5e2e94039",
@@ -271,11 +282,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "c1fbb46edf8c2216",
+  "active": "b82c47c50f493cf7",
   "lastOpenFiles": [
-    "reference/电赛.md",
-    "📔日志/日志03-04.md",
     "目录/数学学习.md",
+    "📔日志/日志03-04.md",
+    "reference/电赛.md",
     "📔日志/日志03-05.md",
     "reference/时间安排.md",
     "🌟灵感/灵感-知乎.md",
