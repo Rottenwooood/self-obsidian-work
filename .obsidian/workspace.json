@@ -61,6 +61,16 @@
               "icon": "lucide-file",
               "title": "008图"
             }
+          },
+          {
+            "id": "a683f506a6984acd",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
           }
         ],
         "currentTab": 3
@@ -270,6 +280,8 @@
   },
   "active": "dcbc64f2251b7bfa",
   "lastOpenFiles": [
+    "🧠算法/算法/递归和迭代.md",
+    "🧠算法/专题/008图.md",
     "🧠算法/算法模板.md",
     "reference/ROS学习路线.md",
     "reference/具身智能学习路线.md",
@@ -277,7 +289,6 @@
     "conflict-files-obsidian-git.md",
     "🖥单片机/stm32.md",
     "📔日志/日志03-04.md",
-    "🧠算法/专题/008图.md",
     "🧠算法/专题/004数学.md",
     "📓周结/周结2025-W07-02-10.md",
     "📔日志/日志03-01.md",
@@ -296,7 +307,6 @@
     "📔日志/日志02-25.md",
     "📓周结/周结2025-W08-02-17.md",
     "主页.canvas",
-    "reference/近期.md",
     "🧠算法/算法.canvas",
     "docs/折叠/attachment/lpytfpck.bmp",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
