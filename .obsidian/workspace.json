@@ -76,19 +76,9 @@
               "icon": "lucide-file",
               "title": "电赛"
             }
-          },
-          {
-            "id": "fe3a24a7480e235e",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -282,11 +272,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b82c47c50f493cf7",
+  "active": "c1fbb46edf8c2216",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "reference/电赛.md",
     "目录/数学学习.md",
     "📔日志/日志03-04.md",
-    "reference/电赛.md",
     "📔日志/日志03-05.md",
     "reference/时间安排.md",
     "🌟灵感/灵感-知乎.md",
@@ -295,7 +286,6 @@
     "🧠算法/专题/008图.md",
     "📓周结/周结2025-W10-03-03.md",
     "🖥单片机/stm32.md",
-    "conflict-files-obsidian-git.md",
     "目录/高数下.md",
     "reference/近期.md",
     "📔日志/日志1.19.md",
