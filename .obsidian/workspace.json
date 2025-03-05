@@ -18,28 +18,6 @@
             }
           },
           {
-            "id": "248a3ea9b91e2974",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.9"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.9"
-            }
-          },
-          {
-            "id": "7fcc44e4d03fc0b9",
-            "type": "leaf",
-            "state": {
-              "type": "thino_view",
-              "state": {},
-              "icon": "Memos",
-              "title": "Thino"
-            }
-          },
-          {
             "id": "18aec94b04d0fd81",
             "type": "leaf",
             "state": {
@@ -52,36 +30,6 @@
               },
               "icon": "lucide-file",
               "title": "时间安排"
-            }
-          },
-          {
-            "id": "5c1474b9a838af8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📔日志/日志03-04.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "日志03-04"
-            }
-          },
-          {
-            "id": "b762af6f28f19c8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📔日志/日志03-05.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "日志03-05"
             }
           },
           {
@@ -115,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
