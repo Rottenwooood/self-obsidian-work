@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -263,16 +263,15 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "b82c47c50f493cf7",
+  "active": "0011fff96bf43c73",
   "lastOpenFiles": [
-    "🧠算法/专题/008图.md",
     "📔日志/日志03-04.md",
-    "📓周结/周结2025-W10-03-03.md",
     "reference/时间安排.md",
+    "🧠算法/专题/008图.md",
+    "📓周结/周结2025-W10-03-03.md",
     "🌟灵感/灵感-知乎.md",
     "🖥单片机/stm32.md",
     "conflict-files-obsidian-git.md",
