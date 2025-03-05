@@ -33,6 +33,16 @@
             }
           },
           {
+            "id": "aee5c5225f2ff1cb",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
+          },
+          {
             "id": "93560a2af20e8206",
             "type": "leaf",
             "state": {
@@ -48,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,13 +175,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reference/ROS学习路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ROS学习路线 的大纲"
+              "title": "大纲"
             }
           },
           {
@@ -255,8 +264,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "96663eb036ee7895",
+  "active": "aee5c5225f2ff1cb",
   "lastOpenFiles": [
+    "reference/ROS学习路线.md",
     "🧠算法/专题/008图.md",
     "🧠算法/算法模板.md",
     "🧠算法/专题/004数学.md",
@@ -269,7 +279,6 @@
     "reference/招新.md",
     "reference/我是如何在本科期间发表顶会论文的？（内含开源代码和数据集） - 知乎.md",
     "reference/嵌入式之路.md",
-    "reference/ROS学习路线.md",
     "📔日志/日志03-02.md",
     "📔日志/日志02-28.md",
     "📔日志/日志02-27.md",
