@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠算法/专题/008图.md",
+                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "008图 的大纲"
+              "title": "conflict-files-obsidian-git 的大纲"
             }
           },
           {
@@ -281,13 +281,15 @@
   },
   "active": "9373dd58ebf2ce43",
   "lastOpenFiles": [
-    "🧠算法/算法/递归和迭代.md",
     "🧠算法/专题/008图.md",
+    "conflict-files-obsidian-git.md",
+    "📔日志/日志03-05.md",
+    "reference/电赛.md",
+    "🧠算法/算法/递归和迭代.md",
     "🧠算法/算法模板.md",
     "reference/ROS学习路线.md",
     "reference/具身智能学习路线.md",
     "目录/高数下.md",
-    "conflict-files-obsidian-git.md",
     "🖥单片机/stm32.md",
     "📔日志/日志03-04.md",
     "🧠算法/专题/004数学.md",
@@ -305,8 +307,6 @@
     "📔日志/日志02-26.md",
     "📔日志/日志02-24.md",
     "📓周结/周结2025-W09-02-24.md",
-    "📔日志/日志02-25.md",
-    "📓周结/周结2025-W08-02-17.md",
     "主页.canvas",
     "🧠算法/算法.canvas",
     "docs/折叠/attachment/lpytfpck.bmp",
