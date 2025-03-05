@@ -175,12 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "reference/ROS学习路线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "ROS学习路线 的大纲"
             }
           },
           {
@@ -264,8 +265,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "aee5c5225f2ff1cb",
+  "active": "9373dd58ebf2ce43",
   "lastOpenFiles": [
+    "🖥单片机/stm32.md",
     "reference/ROS学习路线.md",
     "🧠算法/专题/008图.md",
     "🧠算法/算法模板.md",
@@ -287,7 +289,6 @@
     "📓周结/周结2025-W09-02-24.md",
     "📔日志/日志02-25.md",
     "📓周结/周结2025-W08-02-17.md",
-    "🖥单片机/stm32.md",
     "主页.canvas",
     "reference/近期.md",
     "reference/自学方法.md",
