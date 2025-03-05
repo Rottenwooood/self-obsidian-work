@@ -161,7 +161,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ac7f66e5e2e94039",
@@ -278,7 +279,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "dcbc64f2251b7bfa",
+  "active": "9373dd58ebf2ce43",
   "lastOpenFiles": [
     "🧠算法/算法/递归和迭代.md",
     "🧠算法/专题/008图.md",
