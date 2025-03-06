@@ -28,6 +28,8 @@ default values:start = 0,end = length of array,step = 1
 such as
 - `[0:1:1]` means 1st - 2nd elements
 - `[: :1]` means 1st - last elements
-- `[4:]` means 5nd - last elements
-- `[:]`
-- 
+- `[4:]` means 5th - last elements
+- `[:6]` means 1st to 7th elements
+- also negative,such as`[-3,-1]`
+for 2-D
+- `[1,2:4]` means 2nd child array's 3nd - 5nd elements
