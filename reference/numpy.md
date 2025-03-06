@@ -4,7 +4,7 @@
 - import as np
 - declare arr = np.array([1,2,3,4,5])
 - print np's version
-## 2
+## 2 array
 - np'array called **ndarray**
 - to declare,we can use list[],tuple(),or any **array-like object**
  dimensions of arrays
@@ -17,5 +17,17 @@ to check nums of dimensions
 - `print(arr.ndim)`
 to higher dimensions by yourself
 - `arr = np.array([1,2,3,4,5],ndim = 5)`
-## 3 index
-nothing to say,it's apparent
+## 3 array indexing
+for 1-D,nothing to say,it's apparent
+for 2-D,[0,1] means the first row and the 2nd col,[0] means the 1st row
+for 3-D,4-D,...
+negative index:it's apparent,-1 represent the last one
+## 4 array slicing
+standard : `[start:end:step]`
+default values:start = 0,end = length of array,step = 1
+such as
+- `[0:1:1]` means 1st - 2nd elements
+- `[: :1]` means 1st - last elements
+- `[4:]` means 5nd - last elements
+- `[:]`
+- 
