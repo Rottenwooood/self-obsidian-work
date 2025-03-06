@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -312,10 +312,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f07a6163223a7d7b",
+  "active": "3a6e2e79776fd3a3",
   "lastOpenFiles": [
-    "reference/ai学习路径.md",
     "reference/ai的建议.md",
+    "reference/ai学习路径.md",
     "reference/精品.md",
     "reference/时间安排.md",
     "🖥单片机/stm32.md",
