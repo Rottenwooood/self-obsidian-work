@@ -34,3 +34,17 @@ such as
 for 2-D
 - `[1,2:4]` means 2nd child array's 3nd - 5nd elements
 ## 5 Data Type
+a list of data type:
+- `i` - integer
+- `b` - boolean
+- `u` - unsigned integer
+- `f` - float
+- `c` - complex float
+- `m` - timedelta
+- `M` - datetime
+- `O` - object
+- `S` - string
+- `U` - unicode string
+- `V` - fixed chunk of memory for other type ( void )
+type convert:`astype()`
+such as `arr.astype('i')`,means convert its elements into integer
