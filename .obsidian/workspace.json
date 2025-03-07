@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "目录/作业.md",
+                "file": "reference/时间安排.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "作业"
+              "title": "时间安排"
             }
           },
           {
@@ -258,6 +258,7 @@
   },
   "active": "27c13f6a0cfb9b1e",
   "lastOpenFiles": [
+    "目录/作业.md",
     "reference/精品.md",
     "reference/ai的建议.md",
     "reference/numpy.md",
@@ -265,7 +266,6 @@
     "🧠算法/算法模板.md",
     "reference/ai学习路径.md",
     "🖥单片机/stm32.md",
-    "目录/作业.md",
     "📔日志/日志1.19.md",
     "目录/数学学习.md",
     "reference/近期.md",
