@@ -63,7 +63,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,13 +256,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "27c13f6a0cfb9b1e",
+  "active": "18aec94b04d0fd81",
   "lastOpenFiles": [
-    "reference/时间安排.md",
-    "目录/作业.md",
     "reference/精品.md",
-    "reference/ai的建议.md",
+    "reference/具身智能学习路线.md",
+    "reference/时间安排.md",
     "reference/numpy.md",
+    "目录/作业.md",
+    "reference/ai的建议.md",
     "🧠算法/算法模板.md",
     "reference/ai学习路径.md",
     "🖥单片机/stm32.md",
@@ -283,7 +284,6 @@
     "reference/ROS学习路线.md",
     "竞赛&考试.md",
     "📓周结/周结2025-W09-02-24.md",
-    "📔日志/日志03-01.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
