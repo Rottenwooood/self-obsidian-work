@@ -91,9 +91,19 @@
               "icon": "lucide-file",
               "title": "numpy"
             }
+          },
+          {
+            "id": "1d9ef598cdc51640",
+            "type": "leaf",
+            "state": {
+              "type": "thino_view",
+              "state": {},
+              "icon": "Memos",
+              "title": "Thino"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -287,8 +297,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9c92ab78e439eb0f",
+  "active": "18aec94b04d0fd81",
   "lastOpenFiles": [
+    "🧠算法/算法模板.md",
     "reference/numpy.md",
     "reference/精品.md",
     "reference/ai的建议.md",
@@ -298,7 +309,6 @@
     "目录/作业.md",
     "📔日志/日志1.19.md",
     "目录/数学学习.md",
-    "🧠算法/算法模板.md",
     "reference/近期.md",
     "reference/电赛.md",
     "📔日志/日志03-05.md",
