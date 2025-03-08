@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -271,10 +271,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f953623249095ae8",
+  "active": "18aec94b04d0fd81",
   "lastOpenFiles": [
-    "目录/高数下.md",
     "目录/数学学习.md",
+    "目录/高数下.md",
     "reference/时间安排.md",
     "reference/社区.md",
     "reference/ai的建议.md",
