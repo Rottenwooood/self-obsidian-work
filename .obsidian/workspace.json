@@ -93,7 +93,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -286,8 +286,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bdc2848fae0e2eb8",
+  "active": "18aec94b04d0fd81",
   "lastOpenFiles": [
+    "目录/作业.md",
     "reference/时间安排.md",
     "目录/数学学习.md",
     "目录/高数下.md",
@@ -298,7 +299,6 @@
     "reference/精品.md",
     "🌟灵感/灵感-bilibili.md",
     "reference/具身智能学习路线.md",
-    "目录/作业.md",
     "🧠算法/算法模板.md",
     "reference/ai学习路径.md",
     "🖥单片机/stm32.md",
