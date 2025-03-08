@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference/numpy.md",
+                "file": "reference/ai的建议.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "numpy"
+              "title": "ai的建议"
             }
           },
           {
@@ -61,9 +61,24 @@
               "icon": "lucide-file",
               "title": "精品"
             }
+          },
+          {
+            "id": "f953623249095ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reference/社区.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "社区"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -252,19 +267,21 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false
+      "workspaces:管理工作区布局": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "57f39cea2cdea9b1",
+  "active": "f953623249095ae8",
   "lastOpenFiles": [
+    "reference/社区.md",
+    "reference/ai的建议.md",
+    "reference/numpy.md",
     "reference/时间安排.md",
     "🌟灵感/灵感-知乎.md",
     "reference/精品.md",
     "🌟灵感/灵感-bilibili.md",
     "reference/具身智能学习路线.md",
-    "reference/numpy.md",
     "目录/作业.md",
-    "reference/ai的建议.md",
     "🧠算法/算法模板.md",
     "reference/ai学习路径.md",
     "🖥单片机/stm32.md",
@@ -282,7 +299,6 @@
     "🖥单片机/51附加.md",
     "reference/嵌入式之路.md",
     "reference/ROS学习路线.md",
-    "竞赛&考试.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
