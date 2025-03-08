@@ -47,4 +47,4 @@ a list of data type:
 - `U` - unicode string
 - `V` - fixed chunk of memory for other type ( void )
 type convert:`astype()`
-such as `arr.astype('i')`,means convert its elements into integer
+such as `arr.astype('i')` or `arr.astype(int)`,means convert its elements into integer

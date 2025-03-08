@@ -116,7 +116,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -251,11 +252,10 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "27c13f6a0cfb9b1e",
+  "active": "57f39cea2cdea9b1",
   "lastOpenFiles": [
     "reference/时间安排.md",
     "🌟灵感/灵感-知乎.md",
