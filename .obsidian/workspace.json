@@ -38,13 +38,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📔日志/日志03-10.md",
+                "file": "reference/时间安排.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "日志03-10"
+              "title": "时间安排"
             }
           },
           {
@@ -64,8 +64,7 @@
               "title": "算法"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,12 +258,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bdc2848fae0e2eb8",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
-    "📔日志/日志03-10.md",
-    "reference/时间安排.md",
     "🧠算法/算法.canvas",
+    "reference/时间安排.md",
+    "📔日志/日志03-12.md",
     "📓周结/周结2025-W10-03-03.md",
+    "📔日志/日志03-11.md",
+    "📔日志/日志03-10.md",
     "目录/作业.md",
     "reference/modern robotic.md",
     "reference/ai的建议.md",
@@ -285,9 +286,6 @@
     "📔日志/日志03-05.md",
     "conflict-files-obsidian-git.md",
     "📔日志/日志03-04.md",
-    "待整理/知识库/其他/路线参考/4.md",
-    "🧠算法/专题/008图.md",
-    "🖥单片机/51附加.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
