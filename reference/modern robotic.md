@@ -25,8 +25,8 @@ holonomic constraints : constraints on configuration
 non-holonomic constraints:constraints on velocity
 pfaffians constraints :A(θ)θ' = 0
 ## 2.5 Task Space and Workspace
-C-space- the space of all possile configarations of a robot
+C-space- the space of all possile configarations of a robot,it's just about the task,no about the robot
 Task Space - the space in which the robot's task is naturally expressed
-- for mark pen
-- regid body
-Worksapce
+- to control the tip of a marker on a board,Euclidean plane
+- to control the position and orientation of a regid body,the 6-D space of rigid body configarations
+Worksapce - a specification of the reachable configurations of the end-effector and has nothing to do with a particular task
