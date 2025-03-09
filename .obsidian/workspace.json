@@ -46,9 +46,26 @@
               "icon": "lucide-file",
               "title": "时间安排"
             }
+          },
+          {
+            "id": "bc46ac994321f6aa",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "🧠算法/算法.canvas",
+                "viewState": {
+                  "x": 129.5,
+                  "y": -395.15026809651476,
+                  "zoom": -0.5028643242684478
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "算法"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -242,10 +259,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd788d7574cf532a",
+  "active": "bc46ac994321f6aa",
   "lastOpenFiles": [
-    "📓周结/周结2025-W10-03-03.md",
     "reference/时间安排.md",
+    "📓周结/周结2025-W10-03-03.md",
     "目录/作业.md",
     "reference/modern robotic.md",
     "reference/ai的建议.md",
