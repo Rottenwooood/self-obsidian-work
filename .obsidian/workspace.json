@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -242,10 +242,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bdc2848fae0e2eb8",
+  "active": "fd788d7574cf532a",
   "lastOpenFiles": [
-    "reference/时间安排.md",
     "📓周结/周结2025-W10-03-03.md",
+    "reference/时间安排.md",
     "目录/作业.md",
     "reference/modern robotic.md",
     "reference/ai的建议.md",
