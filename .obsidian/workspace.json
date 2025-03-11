@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mygo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -138,8 +138,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -278,10 +277,12 @@
   "active": "88bfec2ea8680332",
   "lastOpenFiles": [
     "reference/未命名.md",
-    "reference/近期.md",
-    "📓周结/周结2025-W10-03-03.md",
-    "reference/时间安排.md",
+    "📓周结/周结2025-W08-02-17.md",
+    "资源.md",
     "🧠算法/算法.canvas",
+    "📓周结/周结2025-W10-03-03.md",
+    "reference/近期.md",
+    "reference/时间安排.md",
     "📔日志/日志03-16.md",
     "📔日志/日志03-15.md",
     "📔日志/日志03-14.md",
@@ -301,9 +302,6 @@
     "reference/精品.md",
     "🌟灵感/灵感-bilibili.md",
     "reference/具身智能学习路线.md",
-    "🧠算法/算法模板.md",
-    "reference/ai学习路径.md",
-    "📔日志/日志1.19.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
