@@ -78,9 +78,19 @@
               "icon": "lucide-file",
               "title": "未命名"
             }
+          },
+          {
+            "id": "e4065877e11c9382",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -274,14 +284,14 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "88bfec2ea8680332",
+  "active": "e4065877e11c9382",
   "lastOpenFiles": [
+    "reference/近期.md",
     "reference/未命名.md",
     "📓周结/周结2025-W08-02-17.md",
     "资源.md",
     "🧠算法/算法.canvas",
     "📓周结/周结2025-W10-03-03.md",
-    "reference/近期.md",
     "reference/时间安排.md",
     "📔日志/日志03-16.md",
     "📔日志/日志03-15.md",
