@@ -127,7 +127,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#1_哔哩哔哩bilibili",
+                "query": "英语",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,8 +153,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -184,7 +183,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ac7f66e5e2e94039",
@@ -289,7 +289,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9a16754dcb7871e6",
+  "active": "57f39cea2cdea9b1",
   "lastOpenFiles": [
     "reference/时间安排.md",
     "电赛小白入门.md",
