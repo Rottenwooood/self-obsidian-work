@@ -79,8 +79,7 @@
               "title": "未命名"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -274,7 +273,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "88bfec2ea8680332",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
     "reference/未命名.md",
     "🧠算法/算法.canvas",
