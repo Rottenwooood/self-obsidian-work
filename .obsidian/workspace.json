@@ -85,13 +85,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference/精品.md",
+                "file": "reference/英语学习.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "精品"
+              "title": "英语学习"
             }
           }
         ],
@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -289,8 +290,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "57f39cea2cdea9b1",
+  "active": "9a16754dcb7871e6",
   "lastOpenFiles": [
+    "reference/精品.md",
     "reference/时间安排.md",
     "电赛小白入门.md",
     "电赛小白入门/电赛小白入门.md",
@@ -319,7 +321,6 @@
     "目录/高数下.md",
     "reference/社区.md",
     "reference/numpy.md",
-    "🌟灵感/灵感-知乎.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
