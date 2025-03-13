@@ -138,7 +138,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -168,8 +169,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "ac7f66e5e2e94039",
@@ -276,8 +276,8 @@
   },
   "active": "88bfec2ea8680332",
   "lastOpenFiles": [
-    "reference/未命名.md",
     "reference/近期.md",
+    "reference/未命名.md",
     "📓周结/周结2025-W08-02-17.md",
     "资源.md",
     "🧠算法/算法.canvas",
