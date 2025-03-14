@@ -70,28 +70,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reference/未命名.md",
+                "file": "reference/AWESOME-MYGO-FAN-WORK.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
-            }
-          },
-          {
-            "id": "9a16754dcb7871e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference/英语学习.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "英语学习"
+              "title": "AWESOME-MYGO-FAN-WORK"
             }
           },
           {
@@ -109,7 +94,8 @@
               "title": "英语"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -304,13 +290,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fbae8f57973018dd",
+  "active": "bdc2848fae0e2eb8",
   "lastOpenFiles": [
-    "reference/未命名.md",
-    "🧠算法/算法.canvas",
+    "reference/英语.md",
     "reference/时间安排.md",
     "📓周结/周结2025-W10-03-03.md",
-    "reference/英语.md",
+    "临时.md",
+    "Untitled.md",
+    "🧠算法/算法.canvas",
+    "reference/AWESOME-MYGO-FAN-WORK.md",
     "reference/英语学习.md",
     "reference/精品.md",
     "电赛小白入门.md",
@@ -333,7 +321,6 @@
     "reference/modern robotic.md",
     "reference/ai的建议.md",
     "🖥单片机/stm32.md",
-    "目录/数学学习.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",

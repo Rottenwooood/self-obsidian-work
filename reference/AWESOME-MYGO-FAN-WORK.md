@@ -1,10 +1,7 @@
-
 * [烈焰升腾MyGO！地动山摇~解放军打过来啦~【杂谈】红色幻想乡20250203_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1KBNweWEP9)
-
 * [伪人凛凛子的个人空间-伪人凛凛子个人主页-哔哩哔哩视频](https://space.bilibili.com/287467048?spm_id_from=333.337.0.0)
 * 烈焰升腾mygo
 	* [x] [【TFR烈焰升腾】贴吧同人贴《TFR世界中的生活》-自制片头_哔哩哔哩bilibili_钢铁雄心](https://www.bilibili.com/video/BV1d5woe2E7h/?spm_id_from=333.1007.tianma.1-3-3.click&vd_source=f129459aae6c6657e79d179b353113ae)
-	* [x] 
 	* [【也是二创】当微小日常遇上烈焰升腾【三补】_烈焰升腾吧_百度贴吧](https://tieba.baidu.com/p/9398583921)
 	* [【图片】［二创］TFR世界中的生活【烈焰升腾吧】_百度贴吧](https://tieba.baidu.com/p/9257906351)
 
