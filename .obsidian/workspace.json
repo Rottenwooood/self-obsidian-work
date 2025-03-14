@@ -94,8 +94,7 @@
               "title": "精品"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -289,8 +288,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1847942cd2e5b9ba",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
+    "reference/精品.md",
     "reference/英语.md",
     "reference/AWESOME-MYGO-FAN-WORK.md",
     "reference/时间安排.md",
@@ -300,7 +300,6 @@
     "Untitled.md",
     "🧠算法/算法.canvas",
     "reference/英语学习.md",
-    "reference/精品.md",
     "电赛小白入门.md",
     "电赛小白入门/电赛小白入门.md",
     "电赛小白入门/000 杂项.md",
