@@ -109,8 +109,7 @@
               "title": "英语"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -305,7 +304,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1847942cd2e5b9ba",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
     "reference/英语.md",
     "reference/英语学习.md",
