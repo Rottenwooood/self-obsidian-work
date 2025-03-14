@@ -95,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -289,11 +289,12 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bdc2848fae0e2eb8",
+  "active": "88bfec2ea8680332",
   "lastOpenFiles": [
+    "reference/时间安排.md",
+    "目录/作业.md",
     "📓周结/周结2025-W10-03-03.md",
     "reference/英语.md",
-    "reference/时间安排.md",
     "临时.md",
     "Untitled.md",
     "🧠算法/算法.canvas",
@@ -316,7 +317,6 @@
     "📔日志/日志03-12.md",
     "📔日志/日志03-11.md",
     "📔日志/日志03-10.md",
-    "目录/作业.md",
     "reference/modern robotic.md",
     "reference/ai的建议.md",
     "🖥单片机/stm32.md",
