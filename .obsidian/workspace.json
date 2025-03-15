@@ -284,8 +284,7 @@
       "templates:插入模板": true,
       "command-palette:打开命令面板": true,
       "obsidian-full-calendar:Open Full Calendar": false,
-      "workspaces:管理工作区布局": false,
-      "periodic-notes:Open today": false
+      "workspaces:管理工作区布局": false
     }
   },
   "active": "fbae8f57973018dd",
