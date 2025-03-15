@@ -35,6 +35,7 @@
 |      | [【Mygo/病娇】开膛手初华 # 1_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1UPcBemE9V/)                                                                      | bilibili | [二正EZ](https://space.bilibili.com/104128846)     |      | 血腥  | 完结16   |     |
 |      | 首相小祥                                                                                                                                                  |          |                                                  |      |     |        |     |
 |      | 系统灯                                                                                                                                                   |          |                                                  |      |     |        |     |
+|      | [【What if MyGO?】假如...丧尸怎么办？#1_哔哩哔哩bilibili_剧情](https://www.bilibili.com/video/BV19W42197dh)                                                           |          |                                                  |      |     |        |     |
 知名嗜血长颈鹿
 
 | 作者                                            | 主打类型 | 作品  |

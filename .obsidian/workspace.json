@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -304,8 +304,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5c4b3cbed9490877",
+  "active": "88bfec2ea8680332",
   "lastOpenFiles": [
+    "竞赛&考试.md",
     "reference/近期.md",
     "reference/时间安排.md",
     "reference/精品.md",
@@ -334,7 +335,6 @@
     "📔日志/日志03-10.md",
     "reference/modern robotic.md",
     "reference/ai的建议.md",
-    "🖥单片机/stm32.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",
