@@ -62,7 +62,7 @@ stm32keysking看完，电赛入门视频**2h**，四轴飞控视频
   - 另外的一堆小车/四轴/飞控/CV/openmv视频囤在稍后再看。。。
 
 - [介绍 | RSSHub](https://rsshub.netlify.app/zh/)，RSSHUB，似乎能订阅很多东西，包括b站，知乎，公众号，一堆杂七杂八的东西，等有空了试试吧
-- 
+- [【python】opencv 2小时初学者教程 ｜ 图像识别 ｜ 图像处理 ｜ 人脸识别 ｜ 电脑视觉 - YouTube](https://www.youtube.com/watch?v=xjrykYpaBBM)
 
 
 
