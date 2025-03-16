@@ -2,6 +2,8 @@
 
 待更新
 
+格式待更改，xi hua
+
 ## 3/13
 
 - 做了个awesome-mygo-fan-work，把自己看过的高质量的mygo二创搬了上去，大部分是webgal制作的，不过暂时不打算放在github上了，一是感觉时间不够用，二是感觉有点配不上，我一圈外人，只是一个嗜血长颈鹿罢了
@@ -37,17 +39,9 @@ stm32keysking看完，电赛入门视频**2h**，四轴飞控视频
 
 [WHEELTEC的个人空间-WHEELTEC个人主页-哔哩哔哩视频](https://space.bilibili.com/556393812?spm_id_from=333.337.search-card.all.click)
 
+继续看电赛视频
 
-
-
-
-4+11
-
-9-12 stm32
-
-零散：有空清理稍后再看
-
-​	
+写了一下午电路作业和电路实验
 
 宏观任务：去思考如何收集信息（学习资料，行业前景，技术栈）
 
@@ -63,3 +57,9 @@ stm32keysking看完，电赛入门视频**2h**，四轴飞控视频
 
 - [介绍 | RSSHub](https://rsshub.netlify.app/zh/)，RSSHUB，似乎能订阅很多东西，包括b站，知乎，公众号，一堆杂七杂八的东西，等有空了试试吧
 - [【python】opencv 2小时初学者教程 ｜ 图像识别 ｜ 图像处理 ｜ 人脸识别 ｜ 电脑视觉 - YouTube](https://www.youtube.com/watch?v=xjrykYpaBBM)
+
+- 老师提到过的一个论文：复杂背景下的运动乒乓球定位及轨迹预测研究，他让我在stm32上实现，感觉有点扯，但还是开始学cv了，上一个视频已经学完
+
+## 周结？
+
+周一抽空写吧，先把这东西发上来再说
