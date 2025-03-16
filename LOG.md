@@ -63,15 +63,3 @@ stm32keysking看完，电赛入门视频**2h**，四轴飞控视频
 
 - [介绍 | RSSHub](https://rsshub.netlify.app/zh/)，RSSHUB，似乎能订阅很多东西，包括b站，知乎，公众号，一堆杂七杂八的东西，等有空了试试吧
 - [【python】opencv 2小时初学者教程 ｜ 图像识别 ｜ 图像处理 ｜ 人脸识别 ｜ 电脑视觉 - YouTube](https://www.youtube.com/watch?v=xjrykYpaBBM)
-
-
-
-4+11
-
-4h 调试小车
-
-- [ ] dify部署
-- [ ] 4h 概率论和复变函数
-- [x] 2h 高数
-- [ ] 4h stm32/RTOS/飞控/ai
-- [ ] 1.5h 拓展视野+总结，规划方向
