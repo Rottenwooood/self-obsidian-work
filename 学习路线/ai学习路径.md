@@ -19,3 +19,4 @@ tags:
 [封面 - 机器学习书：以高中数学视角](https://mlbook.dev/)
 ## 李宏毅机器学习
 [国立台湾大学: 李宏毅机器学习 - aiTour](https://aitour.site/deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
+## 知乎收藏夹一堆
