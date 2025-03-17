@@ -79,8 +79,7 @@
               "title": "竞赛&考试"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -272,7 +271,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fd788d7574cf532a",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
     "reference/精品.md",
     "竞赛&考试.md",
