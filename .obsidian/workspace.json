@@ -110,7 +110,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "英语",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,13 +163,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c064049ee1a8be91",
@@ -304,21 +302,21 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "bc46ac994321f6aa",
+  "active": "46a329fad8e7b5d8",
   "lastOpenFiles": [
+    "reference/近期.md",
+    "目录/作业.md",
+    "🧠算法/算法.canvas",
     "📓周结/周结2025-W11-03-10.md",
     "目录/数学学习.md",
     "reference/AWESOME-MYGO-FAN-WORK.md",
     "竞赛&考试.md",
-    "reference/近期.md",
     "reference/时间安排.md",
     "reference/精品.md",
     "reference/英语.md",
-    "目录/作业.md",
     "📓周结/周结2025-W10-03-03.md",
     "临时.md",
     "Untitled.md",
-    "🧠算法/算法.canvas",
     "reference/英语学习.md",
     "电赛小白入门.md",
     "电赛小白入门/电赛小白入门.md",
@@ -334,7 +332,6 @@
     "📔日志/日志03-13.md",
     "📔日志/日志03-12.md",
     "📔日志/日志03-11.md",
-    "📔日志/日志03-10.md",
     "主页.canvas",
     "docs/折叠/attachment/Pasted image 20250225232133.png",
     "docs/折叠/attachment/Pasted image 20250224222245.png",

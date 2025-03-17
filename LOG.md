@@ -77,7 +77,7 @@ stm32keysking看完，电赛入门视频**2h**，四轴飞控视频
 
 没事就干：
 
-cv：识别乒乓球轨迹，grandma视频入门
+cv：识别乒乓球轨迹，**grandma视频入门**
 
 stm32：RTOS
 
@@ -90,3 +90,11 @@ BOT
 [【完结】从0制作自主空中机器人 | 开源 | 浙江大学Fast-Lab*哔哩哔哩*bilibili](https://www.bilibili.com/video/BV1WZ4y167me/)
 
 [【深度学习数学基础】序章 + 目录（更新到06章） - 知乎](https://zhuanlan.zhihu.com/p/25643286963)
+
+联系秦老师
+
+## 3/18
+
+相当于摆烂了，一天屁事没干
+
+## 3/19
