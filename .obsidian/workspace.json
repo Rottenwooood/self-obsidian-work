@@ -94,8 +94,7 @@
               "title": "命令行"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,7 +181,8 @@
               "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "ac7f66e5e2e94039",
@@ -287,7 +287,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "56b30d770b2c97c8",
+  "active": "fbae8f57973018dd",
   "lastOpenFiles": [
     "reference/命令行.md",
     "reference/时间安排.md",
