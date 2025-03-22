@@ -100,13 +100,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "学习路线/深度学习.md",
+                "file": "学习路线/FPGA学习.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "深度学习"
+              "title": "FPGA学习"
             }
           }
         ],
@@ -306,8 +306,10 @@
   "active": "2aee9ebbdc34e64e",
   "lastOpenFiles": [
     "学习路线/嵌入式之路.md",
-    "学习路线/具身智能学习路线.md",
+    "学习路线/FPGA学习.md",
+    "学习路线/飞控入门.md",
     "学习路线/深度学习.md",
+    "学习路线/具身智能学习路线.md",
     "reference/近期.md",
     "🧠算法/算法.canvas",
     "reference/时间安排.md",
@@ -331,8 +333,6 @@
     "目录/数学学习.md",
     "reference/AWESOME-MYGO-FAN-WORK.md",
     "📓周结/周结2025-W10-03-03.md",
-    "临时.md",
-    "Untitled.md",
     "电赛小白入门",
     "Untitled Folder",
     "主页.canvas",
