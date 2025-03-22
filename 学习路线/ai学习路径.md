@@ -17,7 +17,7 @@ tags:
 ## CS229-吴恩达机器学习
 [Stanford CS229: Machine Learning - aiTour](https://aitour.site/machine-learning/CS229/?h=cs229)
 [封面 - 机器学习书：以高中数学视角](https://mlbook.dev/)
-## 李宏毅机器学习
+## 李宏毅深度学习
 [国立台湾大学: 李宏毅机器学习 - aiTour](https://aitour.site/deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
 ## 知乎收藏夹一堆
 # 深度学习
@@ -51,3 +51,22 @@ tags:
 值得一提的是，学这些的目的主要还是为了**研究生阶段发论文**。后续就业的话，关于就业目前搞人工智能算法的岗位比较少，除非985硕并且有顶刊顶会可以试一试，否则最后大概率还是会走回大二的开发岗或数据岗。
 
 如果有机会能跟着学校的研究生做科研发论文挂个名，对研究生阶段会很有帮助。
+
+## 经验
+https://www.zhihu.com/question/624723835/answer/3617795737
+[李沐](https://zhida.zhihu.com/search?content_id=687851418&content_type=Answer&match_order=1&q=%E6%9D%8E%E6%B2%90&zhida_source=entity)和吴恩达是看了让你大概知道深度学习里大概有什么东西，这些东西干嘛用的。比如cnn是什么，transformer是什么，[激活函数](https://zhida.zhihu.com/search?content_id=687851418&content_type=Answer&match_order=1&q=%E6%BF%80%E6%B4%BB%E5%87%BD%E6%95%B0&zhida_source=entity)，归一化，残差。后面你看论文有个大概的印象，到时候看论文看一眼摘要引言，看一下模型框图和最后实验效果，心里就八九不离十了。
+
+小土堆那个看了是真的告诉你深度学习代码的架构是什么样的。比如[batchsize](https://zhida.zhihu.com/search?content_id=687851418&content_type=Answer&match_order=1&q=batchsize&zhida_source=entity)什么，学习率是什么，维度是什么。一个工程大概有哪几个文件，每个文件干嘛用的。看代码时候直接奔着model.py过去就行了，别傻乎乎的看那些底层的数据预处理和训练测试的代码，看了半天没啥用。
+
+然后找你本领域经典的论文和代码精读一篇，吃透以后去复现当年的sota。成熟领域大部分都是在一篇祖师爷的基础上改的，一通百通的。
+
+然后在sota上面魔改就行了，改出效果去翻论文拼理论解释。
+
+## 1
+给一个最快最简单入门路子：
+
+1. 完整听完李宏毅的课，并完成课后作业
+2. 由于李宏毅课程作业难度较大，B站搜索“我是土堆”，听pytorch教程，与上一条结合完成
+3. 完成上述两条，完整做CV/NLP领域至少两个project
+
+至此算入门以上了。
