@@ -22,6 +22,9 @@ tags:
 ## 知乎收藏夹一堆
 # 数学
 https://zhuanlan.zhihu.com/p/25643286963
+## 2
+[入门机器学习/深度学习要多长时间？ - 知乎](https://www.zhihu.com/question/447064746/answer/3204309014)
+[入门机器学习/深度学习要多长时间？ - 知乎](https://www.zhihu.com/question/447064746/answer/3204309014)图灵的猫
 # 深度学习
 ## 参考
 [《动手学深度学习》 — 动手学深度学习 2.0.0 documentation](https://zh.d2l.ai/index.html)
