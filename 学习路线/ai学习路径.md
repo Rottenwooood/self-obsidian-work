@@ -20,6 +20,8 @@ tags:
 ## 李宏毅深度学习
 [国立台湾大学: 李宏毅机器学习 - aiTour](https://aitour.site/deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
 ## 知乎收藏夹一堆
+# 数学
+https://zhuanlan.zhihu.com/p/25643286963
 # 深度学习
 ## 参考
 [《动手学深度学习》 — 动手学深度学习 2.0.0 documentation](https://zh.d2l.ai/index.html)
@@ -70,3 +72,15 @@ https://www.zhihu.com/question/624723835/answer/3617795737
 3. 完成上述两条，完整做CV/NLP领域至少两个project
 
 至此算入门以上了。
+## 实验室一块GPU都没有怎么做深度学习？ - 知乎
+[实验室一块GPU都没有怎么做深度学习？ - 知乎](https://www.zhihu.com/question/299434830/answer/3223480399)
+不要搞图像，多模态，[大模型](https://zhida.zhihu.com/search?content_id=616168492&content_type=Answer&match_order=1&q=%E5%A4%A7%E6%A8%A1%E5%9E%8B&zhida_source=entity)尽可能搞搞[文本序列](https://zhida.zhihu.com/search?content_id=616168492&content_type=Answer&match_order=1&q=%E6%96%87%E6%9C%AC%E5%BA%8F%E5%88%97&zhida_source=entity)的小模型。多做交叉冷门领域。
+有钱自己上一张3090/4090整机，基本上够用了。没钱的话搞个4060的笔记本，调试在笔记本上调好了上autodl跑。
+
+另外推荐一些性价比卡（时间关系，价格会上下变动需要蹲）
+
+1w2的4090，6000的3090（现在涨了），3800的[4060ti](https://zhida.zhihu.com/search?content_id=616168492&content_type=Answer&match_order=1&q=4060ti&zhida_source=entity)16G，4000左右的[A4000](https://zhida.zhihu.com/search?content_id=616168492&content_type=Answer&match_order=1&q=A4000&zhida_source=entity)（也涨了），9000的[联想5800](https://zhida.zhihu.com/search?content_id=616168492&content_type=Answer&match_order=1&q=%E8%81%94%E6%83%B35800&zhida_source=entity)+3080（16G）笔记本，魔改技术成熟的话，可以考虑2080ti22G和3080 20G。
+以上条件都不满足，建议换方向。
+
+## Google colab
+https://www.zhihu.com/question/299434830/answer/1329278982
