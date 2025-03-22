@@ -20,3 +20,14 @@ tags:
 ## 李宏毅机器学习
 [国立台湾大学: 李宏毅机器学习 - aiTour](https://aitour.site/deep-learning/%E6%9D%8E%E5%AE%8F%E6%AF%85%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/)
 ## 知乎收藏夹一堆
+# 深度学习
+## 参考
+[《动手学深度学习》 — 动手学深度学习 2.0.0 documentation](https://zh.d2l.ai/index.html)
+[要基于pytorch做深度学习，但是我代码水平很低，我应该如何学习呢？ - 知乎](https://www.zhihu.com/question/437199981/answer/118782101117)
+## 总结
+- 深度学习入门基于Python的理论与实现（鱼书）
+- 小土堆（三天看完）
+- 李沐老师的《动手学深度学习》pdf，不看视频课（三周左右）
+- 看论文跑代码
+其他书籍
+- 机器学习入门：数学原理解析及算法实践 deepseek教程
