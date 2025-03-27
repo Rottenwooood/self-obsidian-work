@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "计ke",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -245,8 +246,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "1847942cd2e5b9ba",
+  "active": "57f39cea2cdea9b1",
   "lastOpenFiles": [
+    "学习路线/竞赛&考试.md",
     "目录/2月规划.md",
     "目录/复变函数.md",
     "目录/数学学习.md",
@@ -258,7 +260,6 @@
     "学习路线/嵌入式之路.md",
     "学习路线/我是如何在本科期间发表顶会论文的？（内含开源代码和数据集） - 知乎.md",
     "学习路线/飞控入门.md",
-    "学习路线/竞赛&考试.md",
     "学习路线/具身智能学习路线.md",
     "学习路线/FPGA学习.md",
     "学习路线/英语.md",
