@@ -1,16 +1,1 @@
-{
-  "promptDelete": false,
-  "alwaysUpdateLinks": true,
-  "showLineNumber": true,
-  "rightToLeft": false,
-  "attachmentFolderPath": "折叠/attachment",
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-  "newFileLocation": "folder",
-  "newFileFolderPath": "reference"
-}
+{}
