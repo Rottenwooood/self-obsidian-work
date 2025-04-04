@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠算法/刷题.md",
+                "file": "学习路线/竞赛&考试.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "刷题"
+              "title": "竞赛&考试"
             }
           }
         ]
@@ -135,13 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠算法/刷题.md",
+                "file": "学习路线/竞赛&考试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "刷题 的大纲"
+              "title": "竞赛&考试 的大纲"
             }
           },
           {
