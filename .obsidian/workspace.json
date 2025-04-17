@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🧠算法/专题/005数据结构.md",
+                "file": "博客/关于使用mkdocs-material在GitHub Pages部署博客这件事.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "005数据结构"
+              "title": "关于使用mkdocs-material在GitHub Pages部署博客这件事"
             }
           }
         ]
@@ -135,13 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠算法/专题/005数据结构.md",
+                "file": "博客/关于使用mkdocs-material在GitHub Pages部署博客这件事.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "005数据结构 的大纲"
+              "title": "关于使用mkdocs-material在GitHub Pages部署博客这件事 的大纲"
             }
           },
           {
@@ -216,11 +216,11 @@
   },
   "active": "1847942cd2e5b9ba",
   "lastOpenFiles": [
+    "🧠算法/专题/005数据结构.md",
     "🧠算法/专题/004数学.md",
     "🧠算法/专题/001模拟.md",
     "🧠算法/专题/002搜索.md",
     "🧠算法/专题/003算法.md",
-    "🧠算法/专题/005数据结构.md",
     "🧠算法/专题/006动态规划.md",
     "🧠算法/专题/007树.md",
     "🧠算法/专题/008图.md",
