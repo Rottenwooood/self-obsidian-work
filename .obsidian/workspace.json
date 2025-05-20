@@ -21,21 +21,8 @@
               "icon": "lucide-file",
               "title": "ai学习路径"
             }
-          },
-          {
-            "id": "43f23978c51f540f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.8.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.8.10"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "g",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +75,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -148,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "学习路线/ai学习路径.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "ai学习路径 的大纲"
             }
           },
           {
@@ -226,7 +215,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "43f23978c51f540f",
+  "active": "57f39cea2cdea9b1",
   "lastOpenFiles": [
     "学习路线/ai学习路径.md",
     "学习路线/FPGA学习.md",
