@@ -130,13 +130,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🧠算法/专题/001模拟.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "001模拟 的大纲"
+              "title": "大纲"
             }
           },
           {
