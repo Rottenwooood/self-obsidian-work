@@ -11,10 +11,15 @@
             "id": "1847942cd2e5b9ba",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "🖥单片机/stm32.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "stm32"
             }
           }
         ]
@@ -130,12 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "🖥单片机/stm32.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "stm32 的大纲"
             }
           },
           {
@@ -196,7 +202,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": true,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -205,11 +211,11 @@
       "workspaces:管理工作区布局": false,
       "homepage:Open homepage": false,
       "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false,
-      "obsidian-full-calendar:Open Full Calendar": false
+      "obsidian-full-calendar:Open Full Calendar": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "46a329fad8e7b5d8",
+  "active": "1847942cd2e5b9ba",
   "lastOpenFiles": [
     "算法/专题.zip",
     "算法/数据结构/链表/经典/006 链表相交.md",
